@@ -1,0 +1,41 @@
+================================================================================
+TITULOS Y SUBTITULOS
+
+# TITULO 0
+## TITULO 1
+### TITULO 2
+#### TITULO 3
+##### TITULO4
+###### TITULO 5
+================================================================================
+TITULO PERO MEJOR PRESENTADOS
+
+<center>
+   <span style="color:red; font-size:30px">
+      DATAFRAME
+   </span>
+</center>
+================================================================================
+SUBTITULOS
+
+<span style="color:blue; font-size:15px">
+   EJEMPLO 01: 
+   <span style="color:purple; font-size:15px">
+      CREAR UN DATAFRAME DE UN DICCIONARIO DE LISTAS
+   </span>
+</span>
+
+<div class=text-justify>
+DataFrame es una estructura de datos 2D. El marco de datos se utiliza para representar datos en formato tabular en filas y columnas. Es como una hoja de cálculo o una tabla sql. DataFrame es un objeto Pandas.
+</div>
+================================================================================
+COLOCAR UNA IMAGEN COMO PARTE DEL ENUNCIADO
+
+<span style="color:blue; font-size:15px">
+   EJEMPLO 01: 
+   <span style="color:purple; font-size:15px">
+      CREAR UN DICCIONARIO CON LA SIGUIENTE ESTRUCTURA
+      <img src='json.jpg' width=300 height=300>
+   </span>
+</span>
+================================================================================

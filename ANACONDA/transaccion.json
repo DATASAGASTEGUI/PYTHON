@@ -1,0 +1,290 @@
+[
+    {
+        "idTransaccion": 1,
+        "ciudad": "Santander",
+        "zona": "Norte",
+        "ventas": 1235.0,
+        "formaPago": "Contado",
+        "categoria": "Electrodom\u00e9stico"
+    },
+    {
+        "idTransaccion": 2,
+        "ciudad": "Santander",
+        "zona": "Norte",
+        "ventas": 639.2,
+        "formaPago": "Tarjeta",
+        "categoria": "Electrodom\u00e9stico"
+    },
+    {
+        "idTransaccion": 3,
+        "ciudad": "Santander",
+        "zona": "Norte",
+        "ventas": 621.39,
+        "formaPago": "Contado",
+        "categoria": "Inform\u00e1tica"
+    },
+    {
+        "idTransaccion": 4,
+        "ciudad": "Santander",
+        "zona": "Norte",
+        "ventas": 1259.5,
+        "formaPago": "Tarjeta",
+        "categoria": "Inform\u00e1tica"
+    },
+    {
+        "idTransaccion": 5,
+        "ciudad": "Santander",
+        "zona": "Norte",
+        "ventas": 2563.25,
+        "formaPago": "Contado",
+        "categoria": "Audio y televisi\u00f3n"
+    },
+    {
+        "idTransaccion": 6,
+        "ciudad": "Santander",
+        "zona": "Norte",
+        "ventas": 1258.12,
+        "formaPago": "Tarjeta",
+        "categoria": "Audio y televisi\u00f3n"
+    },
+    {
+        "idTransaccion": 7,
+        "ciudad": "Sevilla",
+        "zona": "Sur",
+        "ventas": 725.26,
+        "formaPago": "Contado",
+        "categoria": "Electrodom\u00e9stico"
+    },
+    {
+        "idTransaccion": 8,
+        "ciudad": "Sevilla",
+        "zona": "Sur",
+        "ventas": 2563.39,
+        "formaPago": "Tarjeta",
+        "categoria": "Electrodom\u00e9stico"
+    },
+    {
+        "idTransaccion": 9,
+        "ciudad": "Sevilla",
+        "zona": "Sur",
+        "ventas": 1258.36,
+        "formaPago": "Contado",
+        "categoria": "Inform\u00e1tica"
+    },
+    {
+        "idTransaccion": 10,
+        "ciudad": "Sevilla",
+        "zona": "Sur",
+        "ventas": 1578.3,
+        "formaPago": "Tarjeta",
+        "categoria": "Inform\u00e1tica"
+    },
+    {
+        "idTransaccion": 11,
+        "ciudad": "Sevilla",
+        "zona": "Sur",
+        "ventas": 953.26,
+        "formaPago": "Contado",
+        "categoria": "Audio y televisi\u00f3n"
+    },
+    {
+        "idTransaccion": 12,
+        "ciudad": "Sevilla",
+        "zona": "Sur",
+        "ventas": 2359.25,
+        "formaPago": "Tarjeta",
+        "categoria": "Audio y televisi\u00f3n"
+    },
+    {
+        "idTransaccion": 13,
+        "ciudad": "Vigo",
+        "zona": "Norte",
+        "ventas": 1259.14,
+        "formaPago": "Contado",
+        "categoria": "Electrodom\u00e9stico"
+    },
+    {
+        "idTransaccion": 14,
+        "ciudad": "Vigo",
+        "zona": "Norte",
+        "ventas": 856.5,
+        "formaPago": "Tarjeta",
+        "categoria": "Electrodom\u00e9stico"
+    },
+    {
+        "idTransaccion": 15,
+        "ciudad": "Vigo",
+        "zona": "Norte",
+        "ventas": 420.3,
+        "formaPago": "Contado",
+        "categoria": "Inform\u00e1tica"
+    },
+    {
+        "idTransaccion": 16,
+        "ciudad": "Vigo",
+        "zona": "Norte",
+        "ventas": 2853.0,
+        "formaPago": "Tarjeta",
+        "categoria": "Inform\u00e1tica"
+    },
+    {
+        "idTransaccion": 17,
+        "ciudad": "Vigo",
+        "zona": "Norte",
+        "ventas": 1933.6,
+        "formaPago": "Contado",
+        "categoria": "Audio y televisi\u00f3n"
+    },
+    {
+        "idTransaccion": 18,
+        "ciudad": "Vigo",
+        "zona": "Norte",
+        "ventas": 1253.25,
+        "formaPago": "Tarjeta",
+        "categoria": "Audio y televisi\u00f3n"
+    },
+    {
+        "idTransaccion": 19,
+        "ciudad": "Alicante",
+        "zona": "Levante",
+        "ventas": 3215.3,
+        "formaPago": "Contado",
+        "categoria": "Electrodom\u00e9stico"
+    },
+    {
+        "idTransaccion": 20,
+        "ciudad": "Alicante",
+        "zona": "Levante",
+        "ventas": 1253.25,
+        "formaPago": "Tarjeta",
+        "categoria": "Electrodom\u00e9stico"
+    },
+    {
+        "idTransaccion": 21,
+        "ciudad": "Alicante",
+        "zona": "Levante",
+        "ventas": 698.65,
+        "formaPago": "Contado",
+        "categoria": "Inform\u00e1tica"
+    },
+    {
+        "idTransaccion": 22,
+        "ciudad": "Alicante",
+        "zona": "Levante",
+        "ventas": 2653.26,
+        "formaPago": "Tarjeta",
+        "categoria": "Inform\u00e1tica"
+    },
+    {
+        "idTransaccion": 23,
+        "ciudad": "Alicante",
+        "zona": "Levante",
+        "ventas": 1588.99,
+        "formaPago": "Contado",
+        "categoria": "Audio y televisi\u00f3n"
+    },
+    {
+        "idTransaccion": 24,
+        "ciudad": "Alicante",
+        "zona": "Levante",
+        "ventas": 996.65,
+        "formaPago": "Tarjeta",
+        "categoria": "Audio y televisi\u00f3n"
+    },
+    {
+        "idTransaccion": 25,
+        "ciudad": "Valencia",
+        "zona": "Levante",
+        "ventas": 1254.4,
+        "formaPago": "Contado",
+        "categoria": "Electrodom\u00e9stico"
+    },
+    {
+        "idTransaccion": 26,
+        "ciudad": "Valencia",
+        "zona": "Levante",
+        "ventas": 782.69,
+        "formaPago": "Tarjeta",
+        "categoria": "Electrodom\u00e9stico"
+    },
+    {
+        "idTransaccion": 27,
+        "ciudad": "Valencia",
+        "zona": "Levante",
+        "ventas": 2133.25,
+        "formaPago": "Contado",
+        "categoria": "Inform\u00e1tica"
+    },
+    {
+        "idTransaccion": 28,
+        "ciudad": "Valencia",
+        "zona": "Levante",
+        "ventas": 1120.36,
+        "formaPago": "Tarjeta",
+        "categoria": "Inform\u00e1tica"
+    },
+    {
+        "idTransaccion": 29,
+        "ciudad": "Valencia",
+        "zona": "Levante",
+        "ventas": 1258.33,
+        "formaPago": "Contado",
+        "categoria": "Audio y televisi\u00f3n"
+    },
+    {
+        "idTransaccion": 30,
+        "ciudad": "Valencia",
+        "zona": "Levante",
+        "ventas": 1255.2,
+        "formaPago": "Tarjeta",
+        "categoria": "Audio y televisi\u00f3n"
+    },
+    {
+        "idTransaccion": 31,
+        "ciudad": "Granada",
+        "zona": "Sur",
+        "ventas": 2156.25,
+        "formaPago": "Contado",
+        "categoria": "Electrodom\u00e9stico"
+    },
+    {
+        "idTransaccion": 32,
+        "ciudad": "Granada",
+        "zona": "Sur",
+        "ventas": 598.25,
+        "formaPago": "Tarjeta",
+        "categoria": "Electrodom\u00e9stico"
+    },
+    {
+        "idTransaccion": 33,
+        "ciudad": "Granada",
+        "zona": "Sur",
+        "ventas": 1256.88,
+        "formaPago": "Contado",
+        "categoria": "Inform\u00e1tica"
+    },
+    {
+        "idTransaccion": 34,
+        "ciudad": "Granada",
+        "zona": "Sur",
+        "ventas": 1455.3,
+        "formaPago": "Tarjeta",
+        "categoria": "Inform\u00e1tica"
+    },
+    {
+        "idTransaccion": 35,
+        "ciudad": "Granada",
+        "zona": "Sur",
+        "ventas": 1788.0,
+        "formaPago": "Contado",
+        "categoria": "Audio y televisi\u00f3n"
+    },
+    {
+        "idTransaccion": 36,
+        "ciudad": "Granada",
+        "zona": "Sur",
+        "ventas": 2120.0,
+        "formaPago": "Tarjeta",
+        "categoria": "Audio y televisi\u00f3n"
+    }
+]

@@ -1,0 +1,15 @@
+{
+    "idAlumno": "A1",
+    "nombre": "Miguel",
+    "direccion_dic": {
+        "calle": "Av. Ejercicio 123",
+        "ciudad": "Madrid",
+        "pais": "Pais",
+        "codigoPostal": 28032
+    },
+    "cursos_lst": [
+        "F\u00edsica",
+        "Qu\u00edmica"
+    ],
+    "estatura": 1.72
+}

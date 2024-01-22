@@ -1,0 +1,4747 @@
+[
+    {
+        "idTrabajador": "T1",
+        "nombre": "Lucrezia",
+        "apaterno": "Berroeta",
+        "tipoTrabajador": "1",
+        "parametrosSueldo": [
+            "532"
+        ]
+    },
+    {
+        "idTrabajador": "T2",
+        "nombre": "Faith",
+        "apaterno": "Olmedo",
+        "tipoTrabajador": "4",
+        "parametrosSueldo": [
+            "149",
+            "10"
+        ]
+    },
+    {
+        "idTrabajador": "T3",
+        "nombre": "Nathalie",
+        "apaterno": "Moncada",
+        "tipoTrabajador": "1",
+        "parametrosSueldo": [
+            "311"
+        ]
+    },
+    {
+        "idTrabajador": "T4",
+        "nombre": "Hudson",
+        "apaterno": "Espinoza",
+        "tipoTrabajador": "3",
+        "parametrosSueldo": [
+            "230515"
+        ]
+    },
+    {
+        "idTrabajador": "T5",
+        "nombre": "Katherine",
+        "apaterno": "Oprea",
+        "tipoTrabajador": "2",
+        "parametrosSueldo": [
+            "429",
+            "2657"
+        ]
+    },
+    {
+        "idTrabajador": "T6",
+        "nombre": "Isidro",
+        "apaterno": "Rizzo",
+        "tipoTrabajador": "1",
+        "parametrosSueldo": [
+            "318"
+        ]
+    },
+    {
+        "idTrabajador": "T7",
+        "nombre": "Cristian",
+        "apaterno": "Esparza",
+        "tipoTrabajador": "1",
+        "parametrosSueldo": [
+            "341"
+        ]
+    },
+    {
+        "idTrabajador": "T8",
+        "nombre": "Katherine",
+        "apaterno": "Huerta",
+        "tipoTrabajador": "2",
+        "parametrosSueldo": [
+            "403",
+            "2563"
+        ]
+    },
+    {
+        "idTrabajador": "T9",
+        "nombre": "Enzo",
+        "apaterno": "Bol\u00edvar",
+        "tipoTrabajador": "3",
+        "parametrosSueldo": [
+            "202249"
+        ]
+    },
+    {
+        "idTrabajador": "T10",
+        "nombre": "Mila",
+        "apaterno": "Tavera",
+        "tipoTrabajador": "4",
+        "parametrosSueldo": [
+            "144",
+            "13"
+        ]
+    },
+    {
+        "idTrabajador": "T11",
+        "nombre": "Ruth",
+        "apaterno": "Moya",
+        "tipoTrabajador": "4",
+        "parametrosSueldo": [
+            "143",
+            "14"
+        ]
+    },
+    {
+        "idTrabajador": "T12",
+        "nombre": "Tom",
+        "apaterno": "Bianchi",
+        "tipoTrabajador": "1",
+        "parametrosSueldo": [
+            "458"
+        ]
+    },
+    {
+        "idTrabajador": "T13",
+        "nombre": "Claudia",
+        "apaterno": "Azpiazu",
+        "tipoTrabajador": "4",
+        "parametrosSueldo": [
+            "121",
+            "14"
+        ]
+    },
+    {
+        "idTrabajador": "T14",
+        "nombre": "Kayla",
+        "apaterno": "Medeiros",
+        "tipoTrabajador": "2",
+        "parametrosSueldo": [
+            "381",
+            "2766"
+        ]
+    },
+    {
+        "idTrabajador": "T15",
+        "nombre": "Ram\u00f3n",
+        "apaterno": "Mazzola",
+        "tipoTrabajador": "4",
+        "parametrosSueldo": [
+            "126",
+            "15"
+        ]
+    },
+    {
+        "idTrabajador": "T16",
+        "nombre": "Stella",
+        "apaterno": "D'Amore",
+        "tipoTrabajador": "3",
+        "parametrosSueldo": [
+            "231746"
+        ]
+    },
+    {
+        "idTrabajador": "T17",
+        "nombre": "Lorena",
+        "apaterno": "Ojeda",
+        "tipoTrabajador": "1",
+        "parametrosSueldo": [
+            "507"
+        ]
+    },
+    {
+        "idTrabajador": "T18",
+        "nombre": "Eric",
+        "apaterno": "Diaconu",
+        "tipoTrabajador": "4",
+        "parametrosSueldo": [
+            "143",
+            "14"
+        ]
+    },
+    {
+        "idTrabajador": "T19",
+        "nombre": "Isidore",
+        "apaterno": "Micu",
+        "tipoTrabajador": "3",
+        "parametrosSueldo": [
+            "219018"
+        ]
+    },
+    {
+        "idTrabajador": "T20",
+        "nombre": "Lucia",
+        "apaterno": "Jover",
+        "tipoTrabajador": "1",
+        "parametrosSueldo": [
+            "403"
+        ]
+    },
+    {
+        "idTrabajador": "T21",
+        "nombre": "Humberto",
+        "apaterno": "Guridi",
+        "tipoTrabajador": "3",
+        "parametrosSueldo": [
+            "225132"
+        ]
+    },
+    {
+        "idTrabajador": "T22",
+        "nombre": "Ronja",
+        "apaterno": "Rossi",
+        "tipoTrabajador": "1",
+        "parametrosSueldo": [
+            "322"
+        ]
+    },
+    {
+        "idTrabajador": "T23",
+        "nombre": "Giovanna",
+        "apaterno": "Carvajal",
+        "tipoTrabajador": "2",
+        "parametrosSueldo": [
+            "420",
+            "2512"
+        ]
+    },
+    {
+        "idTrabajador": "T24",
+        "nombre": "Ashley",
+        "apaterno": "Romero",
+        "tipoTrabajador": "4",
+        "parametrosSueldo": [
+            "136",
+            "15"
+        ]
+    },
+    {
+        "idTrabajador": "T25",
+        "nombre": "Christopher",
+        "apaterno": "Tejada",
+        "tipoTrabajador": "3",
+        "parametrosSueldo": [
+            "235249"
+        ]
+    },
+    {
+        "idTrabajador": "T26",
+        "nombre": "Umberto",
+        "apaterno": "Dobre",
+        "tipoTrabajador": "1",
+        "parametrosSueldo": [
+            "498"
+        ]
+    },
+    {
+        "idTrabajador": "T27",
+        "nombre": "Scarlett",
+        "apaterno": "Belli",
+        "tipoTrabajador": "2",
+        "parametrosSueldo": [
+            "387",
+            "2571"
+        ]
+    },
+    {
+        "idTrabajador": "T28",
+        "nombre": "Gemma",
+        "apaterno": "Gatti",
+        "tipoTrabajador": "2",
+        "parametrosSueldo": [
+            "445",
+            "2507"
+        ]
+    },
+    {
+        "idTrabajador": "T29",
+        "nombre": "Constanza",
+        "apaterno": "Farr\u00e9",
+        "tipoTrabajador": "1",
+        "parametrosSueldo": [
+            "516"
+        ]
+    },
+    {
+        "idTrabajador": "T30",
+        "nombre": "Ava",
+        "apaterno": "Franco",
+        "tipoTrabajador": "2",
+        "parametrosSueldo": [
+            "361",
+            "2734"
+        ]
+    },
+    {
+        "idTrabajador": "T31",
+        "nombre": "Adri\u00e1n",
+        "apaterno": "Mares",
+        "tipoTrabajador": "4",
+        "parametrosSueldo": [
+            "142",
+            "14"
+        ]
+    },
+    {
+        "idTrabajador": "T32",
+        "nombre": "Giuliana",
+        "apaterno": "Esquivel",
+        "tipoTrabajador": "1",
+        "parametrosSueldo": [
+            "351"
+        ]
+    },
+    {
+        "idTrabajador": "T33",
+        "nombre": "Quentin",
+        "apaterno": "C\u00e1ceres",
+        "tipoTrabajador": "3",
+        "parametrosSueldo": [
+            "233887"
+        ]
+    },
+    {
+        "idTrabajador": "T34",
+        "nombre": "Philippine",
+        "apaterno": "Ni\u021b\u0103",
+        "tipoTrabajador": "4",
+        "parametrosSueldo": [
+            "136",
+            "11"
+        ]
+    },
+    {
+        "idTrabajador": "T35",
+        "nombre": "Igor",
+        "apaterno": "Mihai",
+        "tipoTrabajador": "4",
+        "parametrosSueldo": [
+            "130",
+            "13"
+        ]
+    },
+    {
+        "idTrabajador": "T36",
+        "nombre": "Rosal\u00eda",
+        "apaterno": "Molina",
+        "tipoTrabajador": "2",
+        "parametrosSueldo": [
+            "354",
+            "2729"
+        ]
+    },
+    {
+        "idTrabajador": "T37",
+        "nombre": "Owen",
+        "apaterno": "Ricciardi",
+        "tipoTrabajador": "3",
+        "parametrosSueldo": [
+            "238919"
+        ]
+    },
+    {
+        "idTrabajador": "T38",
+        "nombre": "Lucrezia",
+        "apaterno": "Alarc\u00f3n",
+        "tipoTrabajador": "4",
+        "parametrosSueldo": [
+            "130",
+            "10"
+        ]
+    },
+    {
+        "idTrabajador": "T39",
+        "nombre": "Chlo\u00e9",
+        "apaterno": "Pe\u00f1a",
+        "tipoTrabajador": "2",
+        "parametrosSueldo": [
+            "395",
+            "2646"
+        ]
+    },
+    {
+        "idTrabajador": "T40",
+        "nombre": "Sonia",
+        "apaterno": "Rodr\u00edguez",
+        "tipoTrabajador": "1",
+        "parametrosSueldo": [
+            "520"
+        ]
+    },
+    {
+        "idTrabajador": "T41",
+        "nombre": "Paul",
+        "apaterno": "Ugalde",
+        "tipoTrabajador": "1",
+        "parametrosSueldo": [
+            "313"
+        ]
+    },
+    {
+        "idTrabajador": "T42",
+        "nombre": "Carly",
+        "apaterno": "Estrada",
+        "tipoTrabajador": "3",
+        "parametrosSueldo": [
+            "224520"
+        ]
+    },
+    {
+        "idTrabajador": "T43",
+        "nombre": "John",
+        "apaterno": "Huerta",
+        "tipoTrabajador": "2",
+        "parametrosSueldo": [
+            "454",
+            "2674"
+        ]
+    },
+    {
+        "idTrabajador": "T44",
+        "nombre": "Alicia",
+        "apaterno": "Fernandes",
+        "tipoTrabajador": "3",
+        "parametrosSueldo": [
+            "220358"
+        ]
+    },
+    {
+        "idTrabajador": "T45",
+        "nombre": "Ferm\u00edn",
+        "apaterno": "Gatti",
+        "tipoTrabajador": "1",
+        "parametrosSueldo": [
+            "366"
+        ]
+    },
+    {
+        "idTrabajador": "T46",
+        "nombre": "Jack",
+        "apaterno": "Sosa",
+        "tipoTrabajador": "2",
+        "parametrosSueldo": [
+            "391",
+            "2634"
+        ]
+    },
+    {
+        "idTrabajador": "T47",
+        "nombre": "Gaia",
+        "apaterno": "Bruno",
+        "tipoTrabajador": "4",
+        "parametrosSueldo": [
+            "148",
+            "11"
+        ]
+    },
+    {
+        "idTrabajador": "T48",
+        "nombre": "Cecilia",
+        "apaterno": "Gatti",
+        "tipoTrabajador": "1",
+        "parametrosSueldo": [
+            "340"
+        ]
+    },
+    {
+        "idTrabajador": "T49",
+        "nombre": "Zo\u00e9",
+        "apaterno": "Ionescu",
+        "tipoTrabajador": "3",
+        "parametrosSueldo": [
+            "220901"
+        ]
+    },
+    {
+        "idTrabajador": "T50",
+        "nombre": "Jos\u00e9 Luis",
+        "apaterno": "Ordo\u00f1ez",
+        "tipoTrabajador": "4",
+        "parametrosSueldo": [
+            "147",
+            "15"
+        ]
+    },
+    {
+        "idTrabajador": "T51",
+        "nombre": "N\u00e9stor",
+        "apaterno": "Callejas",
+        "tipoTrabajador": "3",
+        "parametrosSueldo": [
+            "217121"
+        ]
+    },
+    {
+        "idTrabajador": "T52",
+        "nombre": "Salvatore",
+        "apaterno": "Serra",
+        "tipoTrabajador": "3",
+        "parametrosSueldo": [
+            "234959"
+        ]
+    },
+    {
+        "idTrabajador": "T53",
+        "nombre": "Eric",
+        "apaterno": "Muniategi",
+        "tipoTrabajador": "2",
+        "parametrosSueldo": [
+            "416",
+            "2762"
+        ]
+    },
+    {
+        "idTrabajador": "T54",
+        "nombre": "Claudia",
+        "apaterno": "Ionescu",
+        "tipoTrabajador": "2",
+        "parametrosSueldo": [
+            "356",
+            "2506"
+        ]
+    },
+    {
+        "idTrabajador": "T55",
+        "nombre": "Marcela",
+        "apaterno": "Mihai",
+        "tipoTrabajador": "2",
+        "parametrosSueldo": [
+            "433",
+            "2599"
+        ]
+    },
+    {
+        "idTrabajador": "T56",
+        "nombre": "Alexander",
+        "apaterno": "Irimia",
+        "tipoTrabajador": "1",
+        "parametrosSueldo": [
+            "301"
+        ]
+    },
+    {
+        "idTrabajador": "T57",
+        "nombre": "Harper",
+        "apaterno": "Valencia",
+        "tipoTrabajador": "1",
+        "parametrosSueldo": [
+            "438"
+        ]
+    },
+    {
+        "idTrabajador": "T58",
+        "nombre": "Amanda",
+        "apaterno": "Vitale",
+        "tipoTrabajador": "2",
+        "parametrosSueldo": [
+            "351",
+            "2512"
+        ]
+    },
+    {
+        "idTrabajador": "T59",
+        "nombre": "Michael",
+        "apaterno": "Bruno",
+        "tipoTrabajador": "1",
+        "parametrosSueldo": [
+            "482"
+        ]
+    },
+    {
+        "idTrabajador": "T60",
+        "nombre": "Edith",
+        "apaterno": "Dima",
+        "tipoTrabajador": "4",
+        "parametrosSueldo": [
+            "130",
+            "12"
+        ]
+    },
+    {
+        "idTrabajador": "T61",
+        "nombre": "Fabiola",
+        "apaterno": "Rizzi",
+        "tipoTrabajador": "2",
+        "parametrosSueldo": [
+            "381",
+            "2532"
+        ]
+    },
+    {
+        "idTrabajador": "T62",
+        "nombre": "Am\u00e9lie",
+        "apaterno": "Ro\u0219ca",
+        "tipoTrabajador": "3",
+        "parametrosSueldo": [
+            "211861"
+        ]
+    },
+    {
+        "idTrabajador": "T63",
+        "nombre": "Rocio",
+        "apaterno": "Iriarte",
+        "tipoTrabajador": "3",
+        "parametrosSueldo": [
+            "207224"
+        ]
+    },
+    {
+        "idTrabajador": "T64",
+        "nombre": "Claudia",
+        "apaterno": "Bravo",
+        "tipoTrabajador": "2",
+        "parametrosSueldo": [
+            "422",
+            "2735"
+        ]
+    },
+    {
+        "idTrabajador": "T65",
+        "nombre": "St\u00e9phane",
+        "apaterno": "Mendoza",
+        "tipoTrabajador": "1",
+        "parametrosSueldo": [
+            "494"
+        ]
+    },
+    {
+        "idTrabajador": "T66",
+        "nombre": "Jonathan",
+        "apaterno": "Pantoja",
+        "tipoTrabajador": "1",
+        "parametrosSueldo": [
+            "494"
+        ]
+    },
+    {
+        "idTrabajador": "T67",
+        "nombre": "Avery",
+        "apaterno": "C\u00f3rdoba",
+        "tipoTrabajador": "3",
+        "parametrosSueldo": [
+            "237528"
+        ]
+    },
+    {
+        "idTrabajador": "T68",
+        "nombre": "Bruno",
+        "apaterno": "Pinto",
+        "tipoTrabajador": "2",
+        "parametrosSueldo": [
+            "423",
+            "2600"
+        ]
+    },
+    {
+        "idTrabajador": "T69",
+        "nombre": "Alexander",
+        "apaterno": "Muniategi",
+        "tipoTrabajador": "2",
+        "parametrosSueldo": [
+            "438",
+            "2550"
+        ]
+    },
+    {
+        "idTrabajador": "T70",
+        "nombre": "Nat\u00e1lia",
+        "apaterno": "Galindo",
+        "tipoTrabajador": "2",
+        "parametrosSueldo": [
+            "401",
+            "2664"
+        ]
+    },
+    {
+        "idTrabajador": "T71",
+        "nombre": "Federico",
+        "apaterno": "Ro\u0219u",
+        "tipoTrabajador": "1",
+        "parametrosSueldo": [
+            "396"
+        ]
+    },
+    {
+        "idTrabajador": "T72",
+        "nombre": "Fernando",
+        "apaterno": "Pagani",
+        "tipoTrabajador": "2",
+        "parametrosSueldo": [
+            "411",
+            "2722"
+        ]
+    },
+    {
+        "idTrabajador": "T73",
+        "nombre": "Emiliano",
+        "apaterno": "Valencia",
+        "tipoTrabajador": "1",
+        "parametrosSueldo": [
+            "416"
+        ]
+    },
+    {
+        "idTrabajador": "T74",
+        "nombre": "Anastasia",
+        "apaterno": "Duarte",
+        "tipoTrabajador": "1",
+        "parametrosSueldo": [
+            "445"
+        ]
+    },
+    {
+        "idTrabajador": "T75",
+        "nombre": "Th\u00e9odore",
+        "apaterno": "Palumbo",
+        "tipoTrabajador": "3",
+        "parametrosSueldo": [
+            "238245"
+        ]
+    },
+    {
+        "idTrabajador": "T76",
+        "nombre": "Abel",
+        "apaterno": "Collado",
+        "tipoTrabajador": "2",
+        "parametrosSueldo": [
+            "418",
+            "2788"
+        ]
+    },
+    {
+        "idTrabajador": "T77",
+        "nombre": "Walter",
+        "apaterno": "Vanni",
+        "tipoTrabajador": "3",
+        "parametrosSueldo": [
+            "233239"
+        ]
+    },
+    {
+        "idTrabajador": "T78",
+        "nombre": "Carly",
+        "apaterno": "Urrea",
+        "tipoTrabajador": "1",
+        "parametrosSueldo": [
+            "483"
+        ]
+    },
+    {
+        "idTrabajador": "T79",
+        "nombre": "Fausto",
+        "apaterno": "Voicu",
+        "tipoTrabajador": "3",
+        "parametrosSueldo": [
+            "238359"
+        ]
+    },
+    {
+        "idTrabajador": "T80",
+        "nombre": "Jacques",
+        "apaterno": "Zubia",
+        "tipoTrabajador": "4",
+        "parametrosSueldo": [
+            "137",
+            "13"
+        ]
+    },
+    {
+        "idTrabajador": "T81",
+        "nombre": "Viviane",
+        "apaterno": "Moldovan",
+        "tipoTrabajador": "1",
+        "parametrosSueldo": [
+            "350"
+        ]
+    },
+    {
+        "idTrabajador": "T82",
+        "nombre": "Timo",
+        "apaterno": "Eizagirre",
+        "tipoTrabajador": "4",
+        "parametrosSueldo": [
+            "149",
+            "14"
+        ]
+    },
+    {
+        "idTrabajador": "T83",
+        "nombre": "Chlo\u00e9",
+        "apaterno": "Chavarr\u00eda",
+        "tipoTrabajador": "1",
+        "parametrosSueldo": [
+            "308"
+        ]
+    },
+    {
+        "idTrabajador": "T84",
+        "nombre": "Claudio",
+        "apaterno": "Llamas",
+        "tipoTrabajador": "1",
+        "parametrosSueldo": [
+            "423"
+        ]
+    },
+    {
+        "idTrabajador": "T85",
+        "nombre": "Rebeca",
+        "apaterno": "Chac\u00f3n",
+        "tipoTrabajador": "3",
+        "parametrosSueldo": [
+            "226362"
+        ]
+    },
+    {
+        "idTrabajador": "T86",
+        "nombre": "Mar\u00eda Teresa",
+        "apaterno": "Franco",
+        "tipoTrabajador": "3",
+        "parametrosSueldo": [
+            "216065"
+        ]
+    },
+    {
+        "idTrabajador": "T87",
+        "nombre": "Amalia",
+        "apaterno": "Oliveira",
+        "tipoTrabajador": "1",
+        "parametrosSueldo": [
+            "541"
+        ]
+    },
+    {
+        "idTrabajador": "T88",
+        "nombre": "Andy",
+        "apaterno": "Muneta",
+        "tipoTrabajador": "4",
+        "parametrosSueldo": [
+            "121",
+            "14"
+        ]
+    },
+    {
+        "idTrabajador": "T89",
+        "nombre": "Allison",
+        "apaterno": "Llobet",
+        "tipoTrabajador": "3",
+        "parametrosSueldo": [
+            "223128"
+        ]
+    },
+    {
+        "idTrabajador": "T90",
+        "nombre": "Pedro",
+        "apaterno": "Cazares",
+        "tipoTrabajador": "3",
+        "parametrosSueldo": [
+            "217519"
+        ]
+    },
+    {
+        "idTrabajador": "T91",
+        "nombre": "Ramiro",
+        "apaterno": "Guerra",
+        "tipoTrabajador": "3",
+        "parametrosSueldo": [
+            "211951"
+        ]
+    },
+    {
+        "idTrabajador": "T92",
+        "nombre": "Veronica",
+        "apaterno": "Alves",
+        "tipoTrabajador": "2",
+        "parametrosSueldo": [
+            "379",
+            "2850"
+        ]
+    },
+    {
+        "idTrabajador": "T93",
+        "nombre": "Cristian",
+        "apaterno": "Carvalho",
+        "tipoTrabajador": "4",
+        "parametrosSueldo": [
+            "145",
+            "10"
+        ]
+    },
+    {
+        "idTrabajador": "T94",
+        "nombre": "Robin",
+        "apaterno": "Zumeta",
+        "tipoTrabajador": "3",
+        "parametrosSueldo": [
+            "228543"
+        ]
+    },
+    {
+        "idTrabajador": "T95",
+        "nombre": "John",
+        "apaterno": "Ribeiro",
+        "tipoTrabajador": "1",
+        "parametrosSueldo": [
+            "493"
+        ]
+    },
+    {
+        "idTrabajador": "T96",
+        "nombre": "Brad",
+        "apaterno": "Mendiz\u00e1bal",
+        "tipoTrabajador": "2",
+        "parametrosSueldo": [
+            "393",
+            "2743"
+        ]
+    },
+    {
+        "idTrabajador": "T97",
+        "nombre": "Emanuele",
+        "apaterno": "Viera",
+        "tipoTrabajador": "3",
+        "parametrosSueldo": [
+            "229332"
+        ]
+    },
+    {
+        "idTrabajador": "T98",
+        "nombre": "Juan Carlos",
+        "apaterno": "Cardoso",
+        "tipoTrabajador": "4",
+        "parametrosSueldo": [
+            "140",
+            "11"
+        ]
+    },
+    {
+        "idTrabajador": "T99",
+        "nombre": "Rita",
+        "apaterno": "C\u00e1rdenas",
+        "tipoTrabajador": "2",
+        "parametrosSueldo": [
+            "410",
+            "2734"
+        ]
+    },
+    {
+        "idTrabajador": "T100",
+        "nombre": "Lara",
+        "apaterno": "Martini",
+        "tipoTrabajador": "1",
+        "parametrosSueldo": [
+            "445"
+        ]
+    },
+    {
+        "idTrabajador": "T101",
+        "nombre": "Brayan",
+        "apaterno": "Guill\u00e9n",
+        "tipoTrabajador": "2",
+        "parametrosSueldo": [
+            "363",
+            "2615"
+        ]
+    },
+    {
+        "idTrabajador": "T102",
+        "nombre": "Iv\u00e1n",
+        "apaterno": "Lima",
+        "tipoTrabajador": "3",
+        "parametrosSueldo": [
+            "208506"
+        ]
+    },
+    {
+        "idTrabajador": "T103",
+        "nombre": "Luciano",
+        "apaterno": "Idigoras",
+        "tipoTrabajador": "3",
+        "parametrosSueldo": [
+            "202176"
+        ]
+    },
+    {
+        "idTrabajador": "T104",
+        "nombre": "Jasper",
+        "apaterno": "Sanna",
+        "tipoTrabajador": "2",
+        "parametrosSueldo": [
+            "398",
+            "2872"
+        ]
+    },
+    {
+        "idTrabajador": "T105",
+        "nombre": "Axel",
+        "apaterno": "Cardona",
+        "tipoTrabajador": "1",
+        "parametrosSueldo": [
+            "438"
+        ]
+    },
+    {
+        "idTrabajador": "T106",
+        "nombre": "Nicola",
+        "apaterno": "Ochoa",
+        "tipoTrabajador": "4",
+        "parametrosSueldo": [
+            "128",
+            "10"
+        ]
+    },
+    {
+        "idTrabajador": "T107",
+        "nombre": "Hannah",
+        "apaterno": "Basaguren",
+        "tipoTrabajador": "3",
+        "parametrosSueldo": [
+            "206902"
+        ]
+    },
+    {
+        "idTrabajador": "T108",
+        "nombre": "Val\u00e9rie",
+        "apaterno": "Ursu",
+        "tipoTrabajador": "2",
+        "parametrosSueldo": [
+            "372",
+            "2637"
+        ]
+    },
+    {
+        "idTrabajador": "T109",
+        "nombre": "Caroline",
+        "apaterno": "Ortiz",
+        "tipoTrabajador": "1",
+        "parametrosSueldo": [
+            "374"
+        ]
+    },
+    {
+        "idTrabajador": "T110",
+        "nombre": "Ricardo",
+        "apaterno": "Medina",
+        "tipoTrabajador": "1",
+        "parametrosSueldo": [
+            "315"
+        ]
+    },
+    {
+        "idTrabajador": "T111",
+        "nombre": "Paolo",
+        "apaterno": "Zelaya",
+        "tipoTrabajador": "3",
+        "parametrosSueldo": [
+            "208114"
+        ]
+    },
+    {
+        "idTrabajador": "T112",
+        "nombre": "David",
+        "apaterno": "Soto",
+        "tipoTrabajador": "3",
+        "parametrosSueldo": [
+            "221493"
+        ]
+    },
+    {
+        "idTrabajador": "T113",
+        "nombre": "Emily",
+        "apaterno": "Ordo\u00f1ez",
+        "tipoTrabajador": "2",
+        "parametrosSueldo": [
+            "444",
+            "2720"
+        ]
+    },
+    {
+        "idTrabajador": "T114",
+        "nombre": "Gabriela",
+        "apaterno": "Paniagua",
+        "tipoTrabajador": "3",
+        "parametrosSueldo": [
+            "223993"
+        ]
+    },
+    {
+        "idTrabajador": "T115",
+        "nombre": "Alan",
+        "apaterno": "Mar\u00edn",
+        "tipoTrabajador": "1",
+        "parametrosSueldo": [
+            "538"
+        ]
+    },
+    {
+        "idTrabajador": "T116",
+        "nombre": "Mauricio",
+        "apaterno": "Pe\u00f1a",
+        "tipoTrabajador": "1",
+        "parametrosSueldo": [
+            "353"
+        ]
+    },
+    {
+        "idTrabajador": "T117",
+        "nombre": "Bruno",
+        "apaterno": "Machado",
+        "tipoTrabajador": "2",
+        "parametrosSueldo": [
+            "358",
+            "2692"
+        ]
+    },
+    {
+        "idTrabajador": "T118",
+        "nombre": "Addison",
+        "apaterno": "Iordache",
+        "tipoTrabajador": "2",
+        "parametrosSueldo": [
+            "446",
+            "2609"
+        ]
+    },
+    {
+        "idTrabajador": "T119",
+        "nombre": "Giorgia",
+        "apaterno": "Riccardi",
+        "tipoTrabajador": "3",
+        "parametrosSueldo": [
+            "228541"
+        ]
+    },
+    {
+        "idTrabajador": "T120",
+        "nombre": "Melania",
+        "apaterno": "Voicu",
+        "tipoTrabajador": "4",
+        "parametrosSueldo": [
+            "134",
+            "11"
+        ]
+    },
+    {
+        "idTrabajador": "T121",
+        "nombre": "Maya",
+        "apaterno": "Dumitra\u0219cu",
+        "tipoTrabajador": "4",
+        "parametrosSueldo": [
+            "135",
+            "11"
+        ]
+    },
+    {
+        "idTrabajador": "T122",
+        "nombre": "Noah",
+        "apaterno": "Sandoval",
+        "tipoTrabajador": "4",
+        "parametrosSueldo": [
+            "139",
+            "15"
+        ]
+    },
+    {
+        "idTrabajador": "T123",
+        "nombre": "Clementina",
+        "apaterno": "C\u0103linescu",
+        "tipoTrabajador": "2",
+        "parametrosSueldo": [
+            "384",
+            "2780"
+        ]
+    },
+    {
+        "idTrabajador": "T124",
+        "nombre": "Estela",
+        "apaterno": "Viana",
+        "tipoTrabajador": "2",
+        "parametrosSueldo": [
+            "424",
+            "2661"
+        ]
+    },
+    {
+        "idTrabajador": "T125",
+        "nombre": "Kennedy",
+        "apaterno": "Esposito",
+        "tipoTrabajador": "3",
+        "parametrosSueldo": [
+            "230072"
+        ]
+    },
+    {
+        "idTrabajador": "T126",
+        "nombre": "Anna",
+        "apaterno": "Hern\u00e1ndez",
+        "tipoTrabajador": "1",
+        "parametrosSueldo": [
+            "474"
+        ]
+    },
+    {
+        "idTrabajador": "T127",
+        "nombre": "Lucas",
+        "apaterno": "Arg\u00fcelles",
+        "tipoTrabajador": "1",
+        "parametrosSueldo": [
+            "501"
+        ]
+    },
+    {
+        "idTrabajador": "T128",
+        "nombre": "Brad",
+        "apaterno": "Costa",
+        "tipoTrabajador": "3",
+        "parametrosSueldo": [
+            "203624"
+        ]
+    },
+    {
+        "idTrabajador": "T129",
+        "nombre": "Emilio",
+        "apaterno": "Blanch",
+        "tipoTrabajador": "4",
+        "parametrosSueldo": [
+            "139",
+            "14"
+        ]
+    },
+    {
+        "idTrabajador": "T130",
+        "nombre": "Mart\u00edn",
+        "apaterno": "Ramos",
+        "tipoTrabajador": "1",
+        "parametrosSueldo": [
+            "331"
+        ]
+    },
+    {
+        "idTrabajador": "T131",
+        "nombre": "Finley",
+        "apaterno": "Zubizarreta",
+        "tipoTrabajador": "2",
+        "parametrosSueldo": [
+            "381",
+            "2712"
+        ]
+    },
+    {
+        "idTrabajador": "T132",
+        "nombre": "Tommaso",
+        "apaterno": "Le\u00f3n",
+        "tipoTrabajador": "4",
+        "parametrosSueldo": [
+            "142",
+            "10"
+        ]
+    },
+    {
+        "idTrabajador": "T133",
+        "nombre": "Delfina",
+        "apaterno": "Sep\u00falveda",
+        "tipoTrabajador": "1",
+        "parametrosSueldo": [
+            "528"
+        ]
+    },
+    {
+        "idTrabajador": "T134",
+        "nombre": "\u00c1ngel",
+        "apaterno": "Tavera",
+        "tipoTrabajador": "4",
+        "parametrosSueldo": [
+            "130",
+            "14"
+        ]
+    },
+    {
+        "idTrabajador": "T135",
+        "nombre": "Jan",
+        "apaterno": "Piqu\u00e9",
+        "tipoTrabajador": "3",
+        "parametrosSueldo": [
+            "203834"
+        ]
+    },
+    {
+        "idTrabajador": "T136",
+        "nombre": "Andrea",
+        "apaterno": "Ba\u00f1os",
+        "tipoTrabajador": "4",
+        "parametrosSueldo": [
+            "131",
+            "13"
+        ]
+    },
+    {
+        "idTrabajador": "T137",
+        "nombre": "Cooper",
+        "apaterno": "Vacca",
+        "tipoTrabajador": "2",
+        "parametrosSueldo": [
+            "431",
+            "2603"
+        ]
+    },
+    {
+        "idTrabajador": "T138",
+        "nombre": "Salvador",
+        "apaterno": "Llobet",
+        "tipoTrabajador": "3",
+        "parametrosSueldo": [
+            "221832"
+        ]
+    },
+    {
+        "idTrabajador": "T139",
+        "nombre": "Kayla",
+        "apaterno": "Mujika",
+        "tipoTrabajador": "2",
+        "parametrosSueldo": [
+            "426",
+            "2570"
+        ]
+    },
+    {
+        "idTrabajador": "T140",
+        "nombre": "Julia",
+        "apaterno": "Segura",
+        "tipoTrabajador": "3",
+        "parametrosSueldo": [
+            "213503"
+        ]
+    },
+    {
+        "idTrabajador": "T141",
+        "nombre": "Anabel",
+        "apaterno": "Ferretti",
+        "tipoTrabajador": "1",
+        "parametrosSueldo": [
+            "403"
+        ]
+    },
+    {
+        "idTrabajador": "T142",
+        "nombre": "Alessandro",
+        "apaterno": "Villanueva",
+        "tipoTrabajador": "2",
+        "parametrosSueldo": [
+            "449",
+            "2603"
+        ]
+    },
+    {
+        "idTrabajador": "T143",
+        "nombre": "Giovanni",
+        "apaterno": "Varela",
+        "tipoTrabajador": "4",
+        "parametrosSueldo": [
+            "128",
+            "10"
+        ]
+    },
+    {
+        "idTrabajador": "T144",
+        "nombre": "Massimo",
+        "apaterno": "Ferrero",
+        "tipoTrabajador": "2",
+        "parametrosSueldo": [
+            "378",
+            "2624"
+        ]
+    },
+    {
+        "idTrabajador": "T145",
+        "nombre": "Thiago",
+        "apaterno": "Ayala",
+        "tipoTrabajador": "2",
+        "parametrosSueldo": [
+            "414",
+            "2574"
+        ]
+    },
+    {
+        "idTrabajador": "T146",
+        "nombre": "Viviana",
+        "apaterno": "Zubeldia",
+        "tipoTrabajador": "4",
+        "parametrosSueldo": [
+            "132",
+            "15"
+        ]
+    },
+    {
+        "idTrabajador": "T147",
+        "nombre": "Margarita",
+        "apaterno": "Cozma",
+        "tipoTrabajador": "4",
+        "parametrosSueldo": [
+            "139",
+            "11"
+        ]
+    },
+    {
+        "idTrabajador": "T148",
+        "nombre": "Th\u00e9odore",
+        "apaterno": "Gal\u00e1n",
+        "tipoTrabajador": "1",
+        "parametrosSueldo": [
+            "553"
+        ]
+    },
+    {
+        "idTrabajador": "T149",
+        "nombre": "Zacar\u00edas",
+        "apaterno": "Nogu\u00e9s",
+        "tipoTrabajador": "1",
+        "parametrosSueldo": [
+            "389"
+        ]
+    },
+    {
+        "idTrabajador": "T150",
+        "nombre": "Danny",
+        "apaterno": "Mardaras",
+        "tipoTrabajador": "2",
+        "parametrosSueldo": [
+            "426",
+            "2633"
+        ]
+    },
+    {
+        "idTrabajador": "T151",
+        "nombre": "Felicia",
+        "apaterno": "Loizaga",
+        "tipoTrabajador": "2",
+        "parametrosSueldo": [
+            "364",
+            "2579"
+        ]
+    },
+    {
+        "idTrabajador": "T152",
+        "nombre": "Carmen",
+        "apaterno": "Lima",
+        "tipoTrabajador": "1",
+        "parametrosSueldo": [
+            "412"
+        ]
+    },
+    {
+        "idTrabajador": "T153",
+        "nombre": "Quentin",
+        "apaterno": "Del Valle",
+        "tipoTrabajador": "2",
+        "parametrosSueldo": [
+            "365",
+            "2834"
+        ]
+    },
+    {
+        "idTrabajador": "T154",
+        "nombre": "Lukas",
+        "apaterno": "Hidalgo",
+        "tipoTrabajador": "1",
+        "parametrosSueldo": [
+            "543"
+        ]
+    },
+    {
+        "idTrabajador": "T155",
+        "nombre": "Bella",
+        "apaterno": "Badillo",
+        "tipoTrabajador": "4",
+        "parametrosSueldo": [
+            "126",
+            "15"
+        ]
+    },
+    {
+        "idTrabajador": "T156",
+        "nombre": "Lukas",
+        "apaterno": "Ciocan",
+        "tipoTrabajador": "1",
+        "parametrosSueldo": [
+            "519"
+        ]
+    },
+    {
+        "idTrabajador": "T157",
+        "nombre": "Nina",
+        "apaterno": "Vives",
+        "tipoTrabajador": "4",
+        "parametrosSueldo": [
+            "145",
+            "15"
+        ]
+    },
+    {
+        "idTrabajador": "T158",
+        "nombre": "Benito",
+        "apaterno": "Cruz",
+        "tipoTrabajador": "3",
+        "parametrosSueldo": [
+            "227755"
+        ]
+    },
+    {
+        "idTrabajador": "T159",
+        "nombre": "Elisa",
+        "apaterno": "Di Stefano",
+        "tipoTrabajador": "1",
+        "parametrosSueldo": [
+            "373"
+        ]
+    },
+    {
+        "idTrabajador": "T160",
+        "nombre": "Arturo",
+        "apaterno": "Zumarraga",
+        "tipoTrabajador": "1",
+        "parametrosSueldo": [
+            "544"
+        ]
+    },
+    {
+        "idTrabajador": "T161",
+        "nombre": "Isidore",
+        "apaterno": "Matos",
+        "tipoTrabajador": "3",
+        "parametrosSueldo": [
+            "209444"
+        ]
+    },
+    {
+        "idTrabajador": "T162",
+        "nombre": "Mila",
+        "apaterno": "Istrate",
+        "tipoTrabajador": "1",
+        "parametrosSueldo": [
+            "324"
+        ]
+    },
+    {
+        "idTrabajador": "T163",
+        "nombre": "Dylan",
+        "apaterno": "Mendiguren",
+        "tipoTrabajador": "3",
+        "parametrosSueldo": [
+            "228838"
+        ]
+    },
+    {
+        "idTrabajador": "T164",
+        "nombre": "Diego",
+        "apaterno": "Arellano",
+        "tipoTrabajador": "4",
+        "parametrosSueldo": [
+            "132",
+            "10"
+        ]
+    },
+    {
+        "idTrabajador": "T165",
+        "nombre": "Santiago",
+        "apaterno": "Gallegos",
+        "tipoTrabajador": "1",
+        "parametrosSueldo": [
+            "515"
+        ]
+    },
+    {
+        "idTrabajador": "T166",
+        "nombre": "Vanessa",
+        "apaterno": "Moncada",
+        "tipoTrabajador": "1",
+        "parametrosSueldo": [
+            "413"
+        ]
+    },
+    {
+        "idTrabajador": "T167",
+        "nombre": "Yolanda",
+        "apaterno": "Zelaia",
+        "tipoTrabajador": "1",
+        "parametrosSueldo": [
+            "376"
+        ]
+    },
+    {
+        "idTrabajador": "T168",
+        "nombre": "Tristan",
+        "apaterno": "Dumitru",
+        "tipoTrabajador": "1",
+        "parametrosSueldo": [
+            "456"
+        ]
+    },
+    {
+        "idTrabajador": "T169",
+        "nombre": "Nat\u00e1lia",
+        "apaterno": "Silva",
+        "tipoTrabajador": "3",
+        "parametrosSueldo": [
+            "213414"
+        ]
+    },
+    {
+        "idTrabajador": "T170",
+        "nombre": "Dami\u00e1n",
+        "apaterno": "Fontana",
+        "tipoTrabajador": "3",
+        "parametrosSueldo": [
+            "217785"
+        ]
+    },
+    {
+        "idTrabajador": "T171",
+        "nombre": "Vin\u00edcius",
+        "apaterno": "Mendiluze",
+        "tipoTrabajador": "1",
+        "parametrosSueldo": [
+            "413"
+        ]
+    },
+    {
+        "idTrabajador": "T172",
+        "nombre": "Albert",
+        "apaterno": "Magalh\u00e3es",
+        "tipoTrabajador": "4",
+        "parametrosSueldo": [
+            "122",
+            "13"
+        ]
+    },
+    {
+        "idTrabajador": "T173",
+        "nombre": "Jorge",
+        "apaterno": "Santos",
+        "tipoTrabajador": "1",
+        "parametrosSueldo": [
+            "516"
+        ]
+    },
+    {
+        "idTrabajador": "T174",
+        "nombre": "Leticia",
+        "apaterno": "Riccardi",
+        "tipoTrabajador": "4",
+        "parametrosSueldo": [
+            "145",
+            "13"
+        ]
+    },
+    {
+        "idTrabajador": "T175",
+        "nombre": "Margaux",
+        "apaterno": "Leone",
+        "tipoTrabajador": "4",
+        "parametrosSueldo": [
+            "142",
+            "12"
+        ]
+    },
+    {
+        "idTrabajador": "T176",
+        "nombre": "N\u00e9stor",
+        "apaterno": "Osuna",
+        "tipoTrabajador": "4",
+        "parametrosSueldo": [
+            "137",
+            "11"
+        ]
+    },
+    {
+        "idTrabajador": "T177",
+        "nombre": "Braulio",
+        "apaterno": "Toma",
+        "tipoTrabajador": "4",
+        "parametrosSueldo": [
+            "136",
+            "14"
+        ]
+    },
+    {
+        "idTrabajador": "T178",
+        "nombre": "Alba",
+        "apaterno": "Riera",
+        "tipoTrabajador": "1",
+        "parametrosSueldo": [
+            "383"
+        ]
+    },
+    {
+        "idTrabajador": "T179",
+        "nombre": "Ricardo",
+        "apaterno": "Ferri",
+        "tipoTrabajador": "1",
+        "parametrosSueldo": [
+            "392"
+        ]
+    },
+    {
+        "idTrabajador": "T180",
+        "nombre": "Noemi",
+        "apaterno": "Motta",
+        "tipoTrabajador": "3",
+        "parametrosSueldo": [
+            "224300"
+        ]
+    },
+    {
+        "idTrabajador": "T181",
+        "nombre": "Caroline",
+        "apaterno": "Navarro",
+        "tipoTrabajador": "1",
+        "parametrosSueldo": [
+            "405"
+        ]
+    },
+    {
+        "idTrabajador": "T182",
+        "nombre": "Mason",
+        "apaterno": "Amador",
+        "tipoTrabajador": "4",
+        "parametrosSueldo": [
+            "139",
+            "12"
+        ]
+    },
+    {
+        "idTrabajador": "T183",
+        "nombre": "Quinn",
+        "apaterno": "Ribas",
+        "tipoTrabajador": "4",
+        "parametrosSueldo": [
+            "123",
+            "11"
+        ]
+    },
+    {
+        "idTrabajador": "T184",
+        "nombre": "Joshua",
+        "apaterno": "Gatti",
+        "tipoTrabajador": "1",
+        "parametrosSueldo": [
+            "492"
+        ]
+    },
+    {
+        "idTrabajador": "T185",
+        "nombre": "Elias",
+        "apaterno": "Olivares",
+        "tipoTrabajador": "3",
+        "parametrosSueldo": [
+            "220374"
+        ]
+    },
+    {
+        "idTrabajador": "T186",
+        "nombre": "Stefano",
+        "apaterno": "Maldonado",
+        "tipoTrabajador": "2",
+        "parametrosSueldo": [
+            "400",
+            "2844"
+        ]
+    },
+    {
+        "idTrabajador": "T187",
+        "nombre": "\u00c9tienne",
+        "apaterno": "Romano",
+        "tipoTrabajador": "2",
+        "parametrosSueldo": [
+            "453",
+            "2704"
+        ]
+    },
+    {
+        "idTrabajador": "T188",
+        "nombre": "Frieda",
+        "apaterno": "Albu",
+        "tipoTrabajador": "2",
+        "parametrosSueldo": [
+            "426",
+            "2805"
+        ]
+    },
+    {
+        "idTrabajador": "T189",
+        "nombre": "Boris",
+        "apaterno": "Ferreira",
+        "tipoTrabajador": "3",
+        "parametrosSueldo": [
+            "237514"
+        ]
+    },
+    {
+        "idTrabajador": "T190",
+        "nombre": "Ester",
+        "apaterno": "Giorgi",
+        "tipoTrabajador": "3",
+        "parametrosSueldo": [
+            "210570"
+        ]
+    },
+    {
+        "idTrabajador": "T191",
+        "nombre": "Lorenzo",
+        "apaterno": "Ruiz",
+        "tipoTrabajador": "4",
+        "parametrosSueldo": [
+            "135",
+            "12"
+        ]
+    },
+    {
+        "idTrabajador": "T192",
+        "nombre": "Emiliano",
+        "apaterno": "Ure\u00f1a",
+        "tipoTrabajador": "2",
+        "parametrosSueldo": [
+            "415",
+            "2805"
+        ]
+    },
+    {
+        "idTrabajador": "T193",
+        "nombre": "Clementina",
+        "apaterno": "Martiren",
+        "tipoTrabajador": "2",
+        "parametrosSueldo": [
+            "350",
+            "2872"
+        ]
+    },
+    {
+        "idTrabajador": "T194",
+        "nombre": "Riccardo",
+        "apaterno": "Machado",
+        "tipoTrabajador": "1",
+        "parametrosSueldo": [
+            "432"
+        ]
+    },
+    {
+        "idTrabajador": "T195",
+        "nombre": "Benedetta",
+        "apaterno": "Rosas",
+        "tipoTrabajador": "3",
+        "parametrosSueldo": [
+            "233785"
+        ]
+    },
+    {
+        "idTrabajador": "T196",
+        "nombre": "Josefina",
+        "apaterno": "Palumbo",
+        "tipoTrabajador": "4",
+        "parametrosSueldo": [
+            "142",
+            "12"
+        ]
+    },
+    {
+        "idTrabajador": "T197",
+        "nombre": "Valent\u00edn",
+        "apaterno": "Russo",
+        "tipoTrabajador": "2",
+        "parametrosSueldo": [
+            "355",
+            "2651"
+        ]
+    },
+    {
+        "idTrabajador": "T198",
+        "nombre": "Kyle",
+        "apaterno": "Villalobos",
+        "tipoTrabajador": "2",
+        "parametrosSueldo": [
+            "423",
+            "2736"
+        ]
+    },
+    {
+        "idTrabajador": "T199",
+        "nombre": "Valentina",
+        "apaterno": "Andrade",
+        "tipoTrabajador": "2",
+        "parametrosSueldo": [
+            "436",
+            "2828"
+        ]
+    },
+    {
+        "idTrabajador": "T200",
+        "nombre": "Mat\u00edas",
+        "apaterno": "Ferrero",
+        "tipoTrabajador": "4",
+        "parametrosSueldo": [
+            "127",
+            "14"
+        ]
+    },
+    {
+        "idTrabajador": "T201",
+        "nombre": "Larissa",
+        "apaterno": "Sala",
+        "tipoTrabajador": "4",
+        "parametrosSueldo": [
+            "127",
+            "12"
+        ]
+    },
+    {
+        "idTrabajador": "T202",
+        "nombre": "Rocio",
+        "apaterno": "Viana",
+        "tipoTrabajador": "3",
+        "parametrosSueldo": [
+            "217454"
+        ]
+    },
+    {
+        "idTrabajador": "T203",
+        "nombre": "Miguel",
+        "apaterno": "Quintana",
+        "tipoTrabajador": "4",
+        "parametrosSueldo": [
+            "148",
+            "15"
+        ]
+    },
+    {
+        "idTrabajador": "T204",
+        "nombre": "Francisquito",
+        "apaterno": "Belli",
+        "tipoTrabajador": "1",
+        "parametrosSueldo": [
+            "522"
+        ]
+    },
+    {
+        "idTrabajador": "T205",
+        "nombre": "Helena",
+        "apaterno": "Serra",
+        "tipoTrabajador": "3",
+        "parametrosSueldo": [
+            "220911"
+        ]
+    },
+    {
+        "idTrabajador": "T206",
+        "nombre": "Vincent",
+        "apaterno": "Machado",
+        "tipoTrabajador": "1",
+        "parametrosSueldo": [
+            "473"
+        ]
+    },
+    {
+        "idTrabajador": "T207",
+        "nombre": "Alessia",
+        "apaterno": "Giordano",
+        "tipoTrabajador": "1",
+        "parametrosSueldo": [
+            "496"
+        ]
+    },
+    {
+        "idTrabajador": "T208",
+        "nombre": "Sophia",
+        "apaterno": "Quiroz",
+        "tipoTrabajador": "3",
+        "parametrosSueldo": [
+            "237739"
+        ]
+    },
+    {
+        "idTrabajador": "T209",
+        "nombre": "Pamela",
+        "apaterno": "Cardona",
+        "tipoTrabajador": "1",
+        "parametrosSueldo": [
+            "375"
+        ]
+    },
+    {
+        "idTrabajador": "T210",
+        "nombre": "Zacar\u00edas",
+        "apaterno": "Diaconescu",
+        "tipoTrabajador": "2",
+        "parametrosSueldo": [
+            "391",
+            "2563"
+        ]
+    },
+    {
+        "idTrabajador": "T211",
+        "nombre": "Addison",
+        "apaterno": "Medeiros",
+        "tipoTrabajador": "3",
+        "parametrosSueldo": [
+            "216822"
+        ]
+    },
+    {
+        "idTrabajador": "T212",
+        "nombre": "Anna",
+        "apaterno": "Pereira",
+        "tipoTrabajador": "1",
+        "parametrosSueldo": [
+            "481"
+        ]
+    },
+    {
+        "idTrabajador": "T213",
+        "nombre": "Gregorio",
+        "apaterno": "Delgado",
+        "tipoTrabajador": "3",
+        "parametrosSueldo": [
+            "215187"
+        ]
+    },
+    {
+        "idTrabajador": "T214",
+        "nombre": "Bianca",
+        "apaterno": "Zavala",
+        "tipoTrabajador": "1",
+        "parametrosSueldo": [
+            "551"
+        ]
+    },
+    {
+        "idTrabajador": "T215",
+        "nombre": "Charlotte",
+        "apaterno": "Barbosa",
+        "tipoTrabajador": "2",
+        "parametrosSueldo": [
+            "356",
+            "2744"
+        ]
+    },
+    {
+        "idTrabajador": "T216",
+        "nombre": "Horacio",
+        "apaterno": "Guerra",
+        "tipoTrabajador": "1",
+        "parametrosSueldo": [
+            "380"
+        ]
+    },
+    {
+        "idTrabajador": "T217",
+        "nombre": "Frieda",
+        "apaterno": "Camprub\u00ed",
+        "tipoTrabajador": "2",
+        "parametrosSueldo": [
+            "373",
+            "2591"
+        ]
+    },
+    {
+        "idTrabajador": "T218",
+        "nombre": "Umberto",
+        "apaterno": "Ionescu",
+        "tipoTrabajador": "4",
+        "parametrosSueldo": [
+            "139",
+            "12"
+        ]
+    },
+    {
+        "idTrabajador": "T219",
+        "nombre": "Abel",
+        "apaterno": "Zatarain",
+        "tipoTrabajador": "1",
+        "parametrosSueldo": [
+            "409"
+        ]
+    },
+    {
+        "idTrabajador": "T220",
+        "nombre": "Ramiro",
+        "apaterno": "Greco",
+        "tipoTrabajador": "3",
+        "parametrosSueldo": [
+            "202419"
+        ]
+    },
+    {
+        "idTrabajador": "T221",
+        "nombre": "Hannah",
+        "apaterno": "Rosado",
+        "tipoTrabajador": "2",
+        "parametrosSueldo": [
+            "438",
+            "2521"
+        ]
+    },
+    {
+        "idTrabajador": "T222",
+        "nombre": "Agustina",
+        "apaterno": "G\u00f3ngora",
+        "tipoTrabajador": "4",
+        "parametrosSueldo": [
+            "135",
+            "11"
+        ]
+    },
+    {
+        "idTrabajador": "T223",
+        "nombre": "Th\u00e9odore",
+        "apaterno": "Abreu",
+        "tipoTrabajador": "2",
+        "parametrosSueldo": [
+            "350",
+            "2584"
+        ]
+    },
+    {
+        "idTrabajador": "T224",
+        "nombre": "Vivian",
+        "apaterno": "Petrescu",
+        "tipoTrabajador": "2",
+        "parametrosSueldo": [
+            "427",
+            "2655"
+        ]
+    },
+    {
+        "idTrabajador": "T225",
+        "nombre": "Pedro",
+        "apaterno": "Gheorghiu",
+        "tipoTrabajador": "3",
+        "parametrosSueldo": [
+            "226077"
+        ]
+    },
+    {
+        "idTrabajador": "T226",
+        "nombre": "Chase",
+        "apaterno": "Riva",
+        "tipoTrabajador": "4",
+        "parametrosSueldo": [
+            "141",
+            "11"
+        ]
+    },
+    {
+        "idTrabajador": "T227",
+        "nombre": "Adolfo",
+        "apaterno": "Quiroz",
+        "tipoTrabajador": "1",
+        "parametrosSueldo": [
+            "464"
+        ]
+    },
+    {
+        "idTrabajador": "T228",
+        "nombre": "Evan",
+        "apaterno": "Sorrentino",
+        "tipoTrabajador": "2",
+        "parametrosSueldo": [
+            "358",
+            "2601"
+        ]
+    },
+    {
+        "idTrabajador": "T229",
+        "nombre": "Fabiola",
+        "apaterno": "Carmona",
+        "tipoTrabajador": "1",
+        "parametrosSueldo": [
+            "417"
+        ]
+    },
+    {
+        "idTrabajador": "T230",
+        "nombre": "Cosme",
+        "apaterno": "P\u00e2rvu",
+        "tipoTrabajador": "2",
+        "parametrosSueldo": [
+            "386",
+            "2819"
+        ]
+    },
+    {
+        "idTrabajador": "T231",
+        "nombre": "Landon",
+        "apaterno": "Mancini",
+        "tipoTrabajador": "2",
+        "parametrosSueldo": [
+            "383",
+            "2679"
+        ]
+    },
+    {
+        "idTrabajador": "T232",
+        "nombre": "Clementina",
+        "apaterno": "Pacheco",
+        "tipoTrabajador": "2",
+        "parametrosSueldo": [
+            "375",
+            "2641"
+        ]
+    },
+    {
+        "idTrabajador": "T233",
+        "nombre": "H\u00e9l\u00e8ne",
+        "apaterno": "Garmendia",
+        "tipoTrabajador": "2",
+        "parametrosSueldo": [
+            "431",
+            "2698"
+        ]
+    },
+    {
+        "idTrabajador": "T234",
+        "nombre": "Pilar",
+        "apaterno": "Aparicio",
+        "tipoTrabajador": "3",
+        "parametrosSueldo": [
+            "209580"
+        ]
+    },
+    {
+        "idTrabajador": "T235",
+        "nombre": "Alberto",
+        "apaterno": "Toledo",
+        "tipoTrabajador": "3",
+        "parametrosSueldo": [
+            "206022"
+        ]
+    },
+    {
+        "idTrabajador": "T236",
+        "nombre": "Melissa",
+        "apaterno": "\u0218tefan",
+        "tipoTrabajador": "2",
+        "parametrosSueldo": [
+            "412",
+            "2566"
+        ]
+    },
+    {
+        "idTrabajador": "T237",
+        "nombre": "Eduardo",
+        "apaterno": "Parisi",
+        "tipoTrabajador": "4",
+        "parametrosSueldo": [
+            "142",
+            "11"
+        ]
+    },
+    {
+        "idTrabajador": "T238",
+        "nombre": "Graciela",
+        "apaterno": "Erentxun",
+        "tipoTrabajador": "4",
+        "parametrosSueldo": [
+            "145",
+            "10"
+        ]
+    },
+    {
+        "idTrabajador": "T239",
+        "nombre": "Olivia",
+        "apaterno": "Camps",
+        "tipoTrabajador": "4",
+        "parametrosSueldo": [
+            "141",
+            "15"
+        ]
+    },
+    {
+        "idTrabajador": "T240",
+        "nombre": "Manuela",
+        "apaterno": "Vidal",
+        "tipoTrabajador": "4",
+        "parametrosSueldo": [
+            "138",
+            "14"
+        ]
+    },
+    {
+        "idTrabajador": "T241",
+        "nombre": "Michela",
+        "apaterno": "Barr\u00f3n",
+        "tipoTrabajador": "1",
+        "parametrosSueldo": [
+            "507"
+        ]
+    },
+    {
+        "idTrabajador": "T242",
+        "nombre": "Rafael",
+        "apaterno": "Rusu",
+        "tipoTrabajador": "4",
+        "parametrosSueldo": [
+            "150",
+            "10"
+        ]
+    },
+    {
+        "idTrabajador": "T243",
+        "nombre": "Andrea",
+        "apaterno": "Madrigal",
+        "tipoTrabajador": "2",
+        "parametrosSueldo": [
+            "355",
+            "2501"
+        ]
+    },
+    {
+        "idTrabajador": "T244",
+        "nombre": "Vin\u00edcius",
+        "apaterno": "Galartza",
+        "tipoTrabajador": "1",
+        "parametrosSueldo": [
+            "328"
+        ]
+    },
+    {
+        "idTrabajador": "T245",
+        "nombre": "Hayden",
+        "apaterno": "Viana",
+        "tipoTrabajador": "1",
+        "parametrosSueldo": [
+            "329"
+        ]
+    },
+    {
+        "idTrabajador": "T246",
+        "nombre": "Megan",
+        "apaterno": "C\u00e1rdenas",
+        "tipoTrabajador": "2",
+        "parametrosSueldo": [
+            "418",
+            "2725"
+        ]
+    },
+    {
+        "idTrabajador": "T247",
+        "nombre": "Daniel",
+        "apaterno": "Casals",
+        "tipoTrabajador": "1",
+        "parametrosSueldo": [
+            "358"
+        ]
+    },
+    {
+        "idTrabajador": "T248",
+        "nombre": "Nico",
+        "apaterno": "Escobar",
+        "tipoTrabajador": "4",
+        "parametrosSueldo": [
+            "139",
+            "14"
+        ]
+    },
+    {
+        "idTrabajador": "T249",
+        "nombre": "Lara",
+        "apaterno": "Dom\u00ednguez",
+        "tipoTrabajador": "1",
+        "parametrosSueldo": [
+            "308"
+        ]
+    },
+    {
+        "idTrabajador": "T250",
+        "nombre": "Filippo",
+        "apaterno": "Garmendia",
+        "tipoTrabajador": "2",
+        "parametrosSueldo": [
+            "425",
+            "2833"
+        ]
+    },
+    {
+        "idTrabajador": "T251",
+        "nombre": "Parker",
+        "apaterno": "Mardaras",
+        "tipoTrabajador": "1",
+        "parametrosSueldo": [
+            "379"
+        ]
+    },
+    {
+        "idTrabajador": "T252",
+        "nombre": "Hortensia",
+        "apaterno": "Quintana",
+        "tipoTrabajador": "1",
+        "parametrosSueldo": [
+            "447"
+        ]
+    },
+    {
+        "idTrabajador": "T253",
+        "nombre": "Abril",
+        "apaterno": "Tosi",
+        "tipoTrabajador": "1",
+        "parametrosSueldo": [
+            "466"
+        ]
+    },
+    {
+        "idTrabajador": "T254",
+        "nombre": "Raffaele",
+        "apaterno": "Zumeta",
+        "tipoTrabajador": "2",
+        "parametrosSueldo": [
+            "429",
+            "2638"
+        ]
+    },
+    {
+        "idTrabajador": "T255",
+        "nombre": "Mariano",
+        "apaterno": "Naranjo",
+        "tipoTrabajador": "4",
+        "parametrosSueldo": [
+            "130",
+            "13"
+        ]
+    },
+    {
+        "idTrabajador": "T256",
+        "nombre": "Charlotte",
+        "apaterno": "Voicu",
+        "tipoTrabajador": "4",
+        "parametrosSueldo": [
+            "150",
+            "10"
+        ]
+    },
+    {
+        "idTrabajador": "T257",
+        "nombre": "Charlotte",
+        "apaterno": "Vives",
+        "tipoTrabajador": "4",
+        "parametrosSueldo": [
+            "136",
+            "12"
+        ]
+    },
+    {
+        "idTrabajador": "T258",
+        "nombre": "Zo\u00e9",
+        "apaterno": "Damico",
+        "tipoTrabajador": "2",
+        "parametrosSueldo": [
+            "412",
+            "2562"
+        ]
+    },
+    {
+        "idTrabajador": "T259",
+        "nombre": "Danielle",
+        "apaterno": "Ferrero",
+        "tipoTrabajador": "4",
+        "parametrosSueldo": [
+            "125",
+            "11"
+        ]
+    },
+    {
+        "idTrabajador": "T260",
+        "nombre": "Eleonora",
+        "apaterno": "Gallegos",
+        "tipoTrabajador": "1",
+        "parametrosSueldo": [
+            "313"
+        ]
+    },
+    {
+        "idTrabajador": "T261",
+        "nombre": "Jacinta",
+        "apaterno": "Meabe",
+        "tipoTrabajador": "3",
+        "parametrosSueldo": [
+            "212687"
+        ]
+    },
+    {
+        "idTrabajador": "T262",
+        "nombre": "Anastasia",
+        "apaterno": "Lara",
+        "tipoTrabajador": "1",
+        "parametrosSueldo": [
+            "535"
+        ]
+    },
+    {
+        "idTrabajador": "T263",
+        "nombre": "Edgar",
+        "apaterno": "Osuna",
+        "tipoTrabajador": "3",
+        "parametrosSueldo": [
+            "238400"
+        ]
+    },
+    {
+        "idTrabajador": "T264",
+        "nombre": "Viola",
+        "apaterno": "Rizo",
+        "tipoTrabajador": "1",
+        "parametrosSueldo": [
+            "305"
+        ]
+    },
+    {
+        "idTrabajador": "T265",
+        "nombre": "Adriana",
+        "apaterno": "Esquivel",
+        "tipoTrabajador": "2",
+        "parametrosSueldo": [
+            "444",
+            "2606"
+        ]
+    },
+    {
+        "idTrabajador": "T266",
+        "nombre": "Angelo",
+        "apaterno": "Maldonado",
+        "tipoTrabajador": "1",
+        "parametrosSueldo": [
+            "320"
+        ]
+    },
+    {
+        "idTrabajador": "T267",
+        "nombre": "\u00c1ngel",
+        "apaterno": "Lopes",
+        "tipoTrabajador": "1",
+        "parametrosSueldo": [
+            "390"
+        ]
+    },
+    {
+        "idTrabajador": "T268",
+        "nombre": "Bernarda",
+        "apaterno": "Santos",
+        "tipoTrabajador": "1",
+        "parametrosSueldo": [
+            "362"
+        ]
+    },
+    {
+        "idTrabajador": "T269",
+        "nombre": "Norma",
+        "apaterno": "Jim\u00e9nez",
+        "tipoTrabajador": "2",
+        "parametrosSueldo": [
+            "413",
+            "2767"
+        ]
+    },
+    {
+        "idTrabajador": "T270",
+        "nombre": "Flavia",
+        "apaterno": "Ochoa",
+        "tipoTrabajador": "4",
+        "parametrosSueldo": [
+            "120",
+            "13"
+        ]
+    },
+    {
+        "idTrabajador": "T271",
+        "nombre": "Jasper",
+        "apaterno": "Mel\u00e9ndez",
+        "tipoTrabajador": "4",
+        "parametrosSueldo": [
+            "120",
+            "10"
+        ]
+    },
+    {
+        "idTrabajador": "T272",
+        "nombre": "Pamela",
+        "apaterno": "Giordano",
+        "tipoTrabajador": "4",
+        "parametrosSueldo": [
+            "140",
+            "11"
+        ]
+    },
+    {
+        "idTrabajador": "T273",
+        "nombre": "Jacqueline",
+        "apaterno": "Sim\u00f3",
+        "tipoTrabajador": "4",
+        "parametrosSueldo": [
+            "137",
+            "12"
+        ]
+    },
+    {
+        "idTrabajador": "T274",
+        "nombre": "Elena",
+        "apaterno": "Mendiz\u00e1bal",
+        "tipoTrabajador": "4",
+        "parametrosSueldo": [
+            "137",
+            "15"
+        ]
+    },
+    {
+        "idTrabajador": "T275",
+        "nombre": "Ariane",
+        "apaterno": "Olivares",
+        "tipoTrabajador": "1",
+        "parametrosSueldo": [
+            "407"
+        ]
+    },
+    {
+        "idTrabajador": "T276",
+        "nombre": "Lily",
+        "apaterno": "Cardoso",
+        "tipoTrabajador": "4",
+        "parametrosSueldo": [
+            "150",
+            "10"
+        ]
+    },
+    {
+        "idTrabajador": "T277",
+        "nombre": "Yamila",
+        "apaterno": "Vl\u0103du\u021b",
+        "tipoTrabajador": "4",
+        "parametrosSueldo": [
+            "129",
+            "14"
+        ]
+    },
+    {
+        "idTrabajador": "T278",
+        "nombre": "Elizabeth",
+        "apaterno": "Teixeira",
+        "tipoTrabajador": "1",
+        "parametrosSueldo": [
+            "379"
+        ]
+    },
+    {
+        "idTrabajador": "T279",
+        "nombre": "Perla",
+        "apaterno": "Ribeiro",
+        "tipoTrabajador": "4",
+        "parametrosSueldo": [
+            "140",
+            "11"
+        ]
+    },
+    {
+        "idTrabajador": "T280",
+        "nombre": "Sebasti\u00e1n",
+        "apaterno": "Lemus",
+        "tipoTrabajador": "3",
+        "parametrosSueldo": [
+            "204092"
+        ]
+    },
+    {
+        "idTrabajador": "T281",
+        "nombre": "\u00c9l\u00e9onore",
+        "apaterno": "Damico",
+        "tipoTrabajador": "4",
+        "parametrosSueldo": [
+            "136",
+            "14"
+        ]
+    },
+    {
+        "idTrabajador": "T282",
+        "nombre": "Mariano",
+        "apaterno": "Mena",
+        "tipoTrabajador": "1",
+        "parametrosSueldo": [
+            "522"
+        ]
+    },
+    {
+        "idTrabajador": "T283",
+        "nombre": "Enrico",
+        "apaterno": "Lezama",
+        "tipoTrabajador": "1",
+        "parametrosSueldo": [
+            "440"
+        ]
+    },
+    {
+        "idTrabajador": "T284",
+        "nombre": "Zulema",
+        "apaterno": "R\u00edos",
+        "tipoTrabajador": "1",
+        "parametrosSueldo": [
+            "462"
+        ]
+    },
+    {
+        "idTrabajador": "T285",
+        "nombre": "Alfredo",
+        "apaterno": "Monti",
+        "tipoTrabajador": "4",
+        "parametrosSueldo": [
+            "144",
+            "11"
+        ]
+    },
+    {
+        "idTrabajador": "T286",
+        "nombre": "Matheus",
+        "apaterno": "Armani",
+        "tipoTrabajador": "1",
+        "parametrosSueldo": [
+            "425"
+        ]
+    },
+    {
+        "idTrabajador": "T287",
+        "nombre": "Felix",
+        "apaterno": "Segura",
+        "tipoTrabajador": "2",
+        "parametrosSueldo": [
+            "371",
+            "2539"
+        ]
+    },
+    {
+        "idTrabajador": "T288",
+        "nombre": "Clemente",
+        "apaterno": "Guti\u00e9rrez",
+        "tipoTrabajador": "2",
+        "parametrosSueldo": [
+            "396",
+            "2517"
+        ]
+    },
+    {
+        "idTrabajador": "T289",
+        "nombre": "Quinn",
+        "apaterno": "Landaverde",
+        "tipoTrabajador": "1",
+        "parametrosSueldo": [
+            "333"
+        ]
+    },
+    {
+        "idTrabajador": "T290",
+        "nombre": "Grace",
+        "apaterno": "Urbina",
+        "tipoTrabajador": "3",
+        "parametrosSueldo": [
+            "215461"
+        ]
+    },
+    {
+        "idTrabajador": "T291",
+        "nombre": "Irene",
+        "apaterno": "Esquivel",
+        "tipoTrabajador": "3",
+        "parametrosSueldo": [
+            "204835"
+        ]
+    },
+    {
+        "idTrabajador": "T292",
+        "nombre": "Filippo",
+        "apaterno": "Viera",
+        "tipoTrabajador": "4",
+        "parametrosSueldo": [
+            "149",
+            "14"
+        ]
+    },
+    {
+        "idTrabajador": "T293",
+        "nombre": "Blanca",
+        "apaterno": "Puig",
+        "tipoTrabajador": "3",
+        "parametrosSueldo": [
+            "234153"
+        ]
+    },
+    {
+        "idTrabajador": "T294",
+        "nombre": "Viviane",
+        "apaterno": "Apostol",
+        "tipoTrabajador": "3",
+        "parametrosSueldo": [
+            "230142"
+        ]
+    },
+    {
+        "idTrabajador": "T295",
+        "nombre": "Marcello",
+        "apaterno": "De la Rosa",
+        "tipoTrabajador": "2",
+        "parametrosSueldo": [
+            "432",
+            "2564"
+        ]
+    },
+    {
+        "idTrabajador": "T296",
+        "nombre": "Karina",
+        "apaterno": "Anghel",
+        "tipoTrabajador": "4",
+        "parametrosSueldo": [
+            "131",
+            "14"
+        ]
+    },
+    {
+        "idTrabajador": "T297",
+        "nombre": "Emma",
+        "apaterno": "Idoiaga",
+        "tipoTrabajador": "3",
+        "parametrosSueldo": [
+            "214893"
+        ]
+    },
+    {
+        "idTrabajador": "T298",
+        "nombre": "Cedric",
+        "apaterno": "Sala",
+        "tipoTrabajador": "4",
+        "parametrosSueldo": [
+            "147",
+            "13"
+        ]
+    },
+    {
+        "idTrabajador": "T299",
+        "nombre": "Kevin",
+        "apaterno": "Pons",
+        "tipoTrabajador": "3",
+        "parametrosSueldo": [
+            "200308"
+        ]
+    },
+    {
+        "idTrabajador": "T300",
+        "nombre": "Paul",
+        "apaterno": "Lara",
+        "tipoTrabajador": "4",
+        "parametrosSueldo": [
+            "142",
+            "12"
+        ]
+    },
+    {
+        "idTrabajador": "T301",
+        "nombre": "Milena",
+        "apaterno": "Franchi",
+        "tipoTrabajador": "1",
+        "parametrosSueldo": [
+            "312"
+        ]
+    },
+    {
+        "idTrabajador": "T302",
+        "nombre": "Mar\u00eda Luisa",
+        "apaterno": "P\u00e9rez",
+        "tipoTrabajador": "1",
+        "parametrosSueldo": [
+            "375"
+        ]
+    },
+    {
+        "idTrabajador": "T303",
+        "nombre": "Larissa",
+        "apaterno": "Vel\u00e1zquez",
+        "tipoTrabajador": "3",
+        "parametrosSueldo": [
+            "209991"
+        ]
+    },
+    {
+        "idTrabajador": "T304",
+        "nombre": "H\u00e9ctor",
+        "apaterno": "Esteban",
+        "tipoTrabajador": "1",
+        "parametrosSueldo": [
+            "517"
+        ]
+    },
+    {
+        "idTrabajador": "T305",
+        "nombre": "Lily",
+        "apaterno": "Lizarraga",
+        "tipoTrabajador": "2",
+        "parametrosSueldo": [
+            "360",
+            "2844"
+        ]
+    },
+    {
+        "idTrabajador": "T306",
+        "nombre": "Cl\u00e9ment",
+        "apaterno": "Garc\u00eda",
+        "tipoTrabajador": "1",
+        "parametrosSueldo": [
+            "531"
+        ]
+    },
+    {
+        "idTrabajador": "T307",
+        "nombre": "Laura",
+        "apaterno": "Elizondo",
+        "tipoTrabajador": "4",
+        "parametrosSueldo": [
+            "120",
+            "13"
+        ]
+    },
+    {
+        "idTrabajador": "T308",
+        "nombre": "Enrique",
+        "apaterno": "Carranza",
+        "tipoTrabajador": "3",
+        "parametrosSueldo": [
+            "215299"
+        ]
+    },
+    {
+        "idTrabajador": "T309",
+        "nombre": "Moritz",
+        "apaterno": "Sandoval",
+        "tipoTrabajador": "1",
+        "parametrosSueldo": [
+            "552"
+        ]
+    },
+    {
+        "idTrabajador": "T310",
+        "nombre": "Vin\u00edcius",
+        "apaterno": "Ba\u00f1os",
+        "tipoTrabajador": "1",
+        "parametrosSueldo": [
+            "521"
+        ]
+    },
+    {
+        "idTrabajador": "T311",
+        "nombre": "Xavier",
+        "apaterno": "Osorio",
+        "tipoTrabajador": "3",
+        "parametrosSueldo": [
+            "216174"
+        ]
+    },
+    {
+        "idTrabajador": "T312",
+        "nombre": "Pedro",
+        "apaterno": "Berenguer",
+        "tipoTrabajador": "4",
+        "parametrosSueldo": [
+            "131",
+            "10"
+        ]
+    },
+    {
+        "idTrabajador": "T313",
+        "nombre": "\u00c1ngel",
+        "apaterno": "Salgado",
+        "tipoTrabajador": "1",
+        "parametrosSueldo": [
+            "444"
+        ]
+    },
+    {
+        "idTrabajador": "T314",
+        "nombre": "Adalberto",
+        "apaterno": "Roig",
+        "tipoTrabajador": "4",
+        "parametrosSueldo": [
+            "125",
+            "12"
+        ]
+    },
+    {
+        "idTrabajador": "T315",
+        "nombre": "Carly",
+        "apaterno": "Casares",
+        "tipoTrabajador": "1",
+        "parametrosSueldo": [
+            "552"
+        ]
+    },
+    {
+        "idTrabajador": "T316",
+        "nombre": "Henry",
+        "apaterno": "Cojocaru",
+        "tipoTrabajador": "3",
+        "parametrosSueldo": [
+            "216103"
+        ]
+    },
+    {
+        "idTrabajador": "T317",
+        "nombre": "Jasmine",
+        "apaterno": "Rizzo",
+        "tipoTrabajador": "2",
+        "parametrosSueldo": [
+            "396",
+            "2784"
+        ]
+    },
+    {
+        "idTrabajador": "T318",
+        "nombre": "Sara",
+        "apaterno": "Armani",
+        "tipoTrabajador": "4",
+        "parametrosSueldo": [
+            "120",
+            "10"
+        ]
+    },
+    {
+        "idTrabajador": "T319",
+        "nombre": "Nicholas",
+        "apaterno": "Fuentes",
+        "tipoTrabajador": "4",
+        "parametrosSueldo": [
+            "121",
+            "15"
+        ]
+    },
+    {
+        "idTrabajador": "T320",
+        "nombre": "Logan",
+        "apaterno": "Leone",
+        "tipoTrabajador": "2",
+        "parametrosSueldo": [
+            "439",
+            "2757"
+        ]
+    },
+    {
+        "idTrabajador": "T321",
+        "nombre": "M\u00f3nica",
+        "apaterno": "Larra\u00f1aga",
+        "tipoTrabajador": "4",
+        "parametrosSueldo": [
+            "144",
+            "14"
+        ]
+    },
+    {
+        "idTrabajador": "T322",
+        "nombre": "Chloe",
+        "apaterno": "Ro\u0219ca",
+        "tipoTrabajador": "2",
+        "parametrosSueldo": [
+            "368",
+            "2727"
+        ]
+    },
+    {
+        "idTrabajador": "T323",
+        "nombre": "Peyton",
+        "apaterno": "Ferrero",
+        "tipoTrabajador": "3",
+        "parametrosSueldo": [
+            "211964"
+        ]
+    },
+    {
+        "idTrabajador": "T324",
+        "nombre": "Jorge",
+        "apaterno": "Barbosa",
+        "tipoTrabajador": "2",
+        "parametrosSueldo": [
+            "399",
+            "2794"
+        ]
+    },
+    {
+        "idTrabajador": "T325",
+        "nombre": "Philipp",
+        "apaterno": "Ib\u00e1\u00f1ez",
+        "tipoTrabajador": "1",
+        "parametrosSueldo": [
+            "330"
+        ]
+    },
+    {
+        "idTrabajador": "T326",
+        "nombre": "Leon",
+        "apaterno": "Medina",
+        "tipoTrabajador": "2",
+        "parametrosSueldo": [
+            "357",
+            "2556"
+        ]
+    },
+    {
+        "idTrabajador": "T327",
+        "nombre": "Paige",
+        "apaterno": "Pineda",
+        "tipoTrabajador": "3",
+        "parametrosSueldo": [
+            "210301"
+        ]
+    },
+    {
+        "idTrabajador": "T328",
+        "nombre": "Abby",
+        "apaterno": "Urkizu",
+        "tipoTrabajador": "3",
+        "parametrosSueldo": [
+            "224742"
+        ]
+    },
+    {
+        "idTrabajador": "T329",
+        "nombre": "Florian",
+        "apaterno": "Romo",
+        "tipoTrabajador": "1",
+        "parametrosSueldo": [
+            "539"
+        ]
+    },
+    {
+        "idTrabajador": "T330",
+        "nombre": "\u00c9l\u00e9onore",
+        "apaterno": "Matos",
+        "tipoTrabajador": "2",
+        "parametrosSueldo": [
+            "395",
+            "2798"
+        ]
+    },
+    {
+        "idTrabajador": "T331",
+        "nombre": "Abigail",
+        "apaterno": "Neagu",
+        "tipoTrabajador": "1",
+        "parametrosSueldo": [
+            "523"
+        ]
+    },
+    {
+        "idTrabajador": "T332",
+        "nombre": "Roberto",
+        "apaterno": "Ilie",
+        "tipoTrabajador": "4",
+        "parametrosSueldo": [
+            "139",
+            "10"
+        ]
+    },
+    {
+        "idTrabajador": "T333",
+        "nombre": "In\u00e9s",
+        "apaterno": "Fierro",
+        "tipoTrabajador": "2",
+        "parametrosSueldo": [
+            "352",
+            "2589"
+        ]
+    },
+    {
+        "idTrabajador": "T334",
+        "nombre": "Kimberly",
+        "apaterno": "Preda",
+        "tipoTrabajador": "3",
+        "parametrosSueldo": [
+            "205556"
+        ]
+    },
+    {
+        "idTrabajador": "T335",
+        "nombre": "Eric",
+        "apaterno": "Damico",
+        "tipoTrabajador": "3",
+        "parametrosSueldo": [
+            "213008"
+        ]
+    },
+    {
+        "idTrabajador": "T336",
+        "nombre": "Riley",
+        "apaterno": "Ponsat\u00ed",
+        "tipoTrabajador": "3",
+        "parametrosSueldo": [
+            "207016"
+        ]
+    },
+    {
+        "idTrabajador": "T337",
+        "nombre": "Faith",
+        "apaterno": "Ursu",
+        "tipoTrabajador": "3",
+        "parametrosSueldo": [
+            "228850"
+        ]
+    },
+    {
+        "idTrabajador": "T338",
+        "nombre": "Xavier",
+        "apaterno": "Alarc\u00f3n",
+        "tipoTrabajador": "2",
+        "parametrosSueldo": [
+            "445",
+            "2500"
+        ]
+    },
+    {
+        "idTrabajador": "T339",
+        "nombre": "Mart\u00edn",
+        "apaterno": "Sanna",
+        "tipoTrabajador": "4",
+        "parametrosSueldo": [
+            "143",
+            "12"
+        ]
+    },
+    {
+        "idTrabajador": "T340",
+        "nombre": "Alessandro",
+        "apaterno": "Acevedo",
+        "tipoTrabajador": "2",
+        "parametrosSueldo": [
+            "380",
+            "2675"
+        ]
+    },
+    {
+        "idTrabajador": "T341",
+        "nombre": "Manon",
+        "apaterno": "Acosta",
+        "tipoTrabajador": "4",
+        "parametrosSueldo": [
+            "133",
+            "11"
+        ]
+    },
+    {
+        "idTrabajador": "T342",
+        "nombre": "Zamira",
+        "apaterno": "Uztarroz",
+        "tipoTrabajador": "3",
+        "parametrosSueldo": [
+            "229107"
+        ]
+    },
+    {
+        "idTrabajador": "T343",
+        "nombre": "Mar\u00eda Luisa",
+        "apaterno": "Campos",
+        "tipoTrabajador": "1",
+        "parametrosSueldo": [
+            "306"
+        ]
+    },
+    {
+        "idTrabajador": "T344",
+        "nombre": "Zulema",
+        "apaterno": "Dumitra\u0219cu",
+        "tipoTrabajador": "1",
+        "parametrosSueldo": [
+            "520"
+        ]
+    },
+    {
+        "idTrabajador": "T345",
+        "nombre": "R\u00e9mi",
+        "apaterno": "Motta",
+        "tipoTrabajador": "4",
+        "parametrosSueldo": [
+            "123",
+            "10"
+        ]
+    },
+    {
+        "idTrabajador": "T346",
+        "nombre": "Fiona",
+        "apaterno": "Carre\u00f1o",
+        "tipoTrabajador": "4",
+        "parametrosSueldo": [
+            "147",
+            "15"
+        ]
+    },
+    {
+        "idTrabajador": "T347",
+        "nombre": "\u00c9tienne",
+        "apaterno": "Marini",
+        "tipoTrabajador": "4",
+        "parametrosSueldo": [
+            "144",
+            "11"
+        ]
+    },
+    {
+        "idTrabajador": "T348",
+        "nombre": "Gisela",
+        "apaterno": "Micu",
+        "tipoTrabajador": "3",
+        "parametrosSueldo": [
+            "224929"
+        ]
+    },
+    {
+        "idTrabajador": "T349",
+        "nombre": "Emma",
+        "apaterno": "Verdugo",
+        "tipoTrabajador": "1",
+        "parametrosSueldo": [
+            "389"
+        ]
+    },
+    {
+        "idTrabajador": "T350",
+        "nombre": "Juliana",
+        "apaterno": "Martini",
+        "tipoTrabajador": "4",
+        "parametrosSueldo": [
+            "130",
+            "11"
+        ]
+    },
+    {
+        "idTrabajador": "T351",
+        "nombre": "Eva",
+        "apaterno": "Reyes",
+        "tipoTrabajador": "1",
+        "parametrosSueldo": [
+            "317"
+        ]
+    },
+    {
+        "idTrabajador": "T352",
+        "nombre": "Yolanda",
+        "apaterno": "Acevedo",
+        "tipoTrabajador": "3",
+        "parametrosSueldo": [
+            "213255"
+        ]
+    },
+    {
+        "idTrabajador": "T353",
+        "nombre": "Sonia",
+        "apaterno": "Chac\u00f3n",
+        "tipoTrabajador": "4",
+        "parametrosSueldo": [
+            "141",
+            "11"
+        ]
+    },
+    {
+        "idTrabajador": "T354",
+        "nombre": "Dolores",
+        "apaterno": "Etxeita",
+        "tipoTrabajador": "4",
+        "parametrosSueldo": [
+            "128",
+            "15"
+        ]
+    },
+    {
+        "idTrabajador": "T355",
+        "nombre": "Hortensia",
+        "apaterno": "Lombardi",
+        "tipoTrabajador": "3",
+        "parametrosSueldo": [
+            "230281"
+        ]
+    },
+    {
+        "idTrabajador": "T356",
+        "nombre": "Nathalie",
+        "apaterno": "Arg\u00fcelles",
+        "tipoTrabajador": "3",
+        "parametrosSueldo": [
+            "231539"
+        ]
+    },
+    {
+        "idTrabajador": "T357",
+        "nombre": "Nicole",
+        "apaterno": "Fernandes",
+        "tipoTrabajador": "1",
+        "parametrosSueldo": [
+            "373"
+        ]
+    },
+    {
+        "idTrabajador": "T358",
+        "nombre": "Alessandro",
+        "apaterno": "G\u00e1lvez",
+        "tipoTrabajador": "1",
+        "parametrosSueldo": [
+            "445"
+        ]
+    },
+    {
+        "idTrabajador": "T359",
+        "nombre": "Noah",
+        "apaterno": "Padilla",
+        "tipoTrabajador": "4",
+        "parametrosSueldo": [
+            "134",
+            "12"
+        ]
+    },
+    {
+        "idTrabajador": "T360",
+        "nombre": "Melania",
+        "apaterno": "Echevarr\u00eda",
+        "tipoTrabajador": "3",
+        "parametrosSueldo": [
+            "237402"
+        ]
+    },
+    {
+        "idTrabajador": "T361",
+        "nombre": "Daniele",
+        "apaterno": "Soto",
+        "tipoTrabajador": "2",
+        "parametrosSueldo": [
+            "415",
+            "2809"
+        ]
+    },
+    {
+        "idTrabajador": "T362",
+        "nombre": "Andrew",
+        "apaterno": "Farinelli",
+        "tipoTrabajador": "3",
+        "parametrosSueldo": [
+            "200557"
+        ]
+    },
+    {
+        "idTrabajador": "T363",
+        "nombre": "Humberto",
+        "apaterno": "Perales",
+        "tipoTrabajador": "1",
+        "parametrosSueldo": [
+            "356"
+        ]
+    },
+    {
+        "idTrabajador": "T364",
+        "nombre": "Chloe",
+        "apaterno": "Oliver",
+        "tipoTrabajador": "4",
+        "parametrosSueldo": [
+            "123",
+            "14"
+        ]
+    },
+    {
+        "idTrabajador": "T365",
+        "nombre": "Aurora",
+        "apaterno": "Aguirre",
+        "tipoTrabajador": "2",
+        "parametrosSueldo": [
+            "432",
+            "2551"
+        ]
+    },
+    {
+        "idTrabajador": "T366",
+        "nombre": "John",
+        "apaterno": "Lara",
+        "tipoTrabajador": "4",
+        "parametrosSueldo": [
+            "122",
+            "11"
+        ]
+    },
+    {
+        "idTrabajador": "T367",
+        "nombre": "Lucie",
+        "apaterno": "Mikelarena",
+        "tipoTrabajador": "4",
+        "parametrosSueldo": [
+            "141",
+            "15"
+        ]
+    },
+    {
+        "idTrabajador": "T368",
+        "nombre": "Paige",
+        "apaterno": "Garmendia",
+        "tipoTrabajador": "1",
+        "parametrosSueldo": [
+            "302"
+        ]
+    },
+    {
+        "idTrabajador": "T369",
+        "nombre": "Noelia",
+        "apaterno": "Lopes",
+        "tipoTrabajador": "1",
+        "parametrosSueldo": [
+            "539"
+        ]
+    },
+    {
+        "idTrabajador": "T370",
+        "nombre": "Caleb",
+        "apaterno": "Muneta",
+        "tipoTrabajador": "4",
+        "parametrosSueldo": [
+            "142",
+            "12"
+        ]
+    },
+    {
+        "idTrabajador": "T371",
+        "nombre": "Alba",
+        "apaterno": "Gon\u00e7alves",
+        "tipoTrabajador": "1",
+        "parametrosSueldo": [
+            "451"
+        ]
+    },
+    {
+        "idTrabajador": "T372",
+        "nombre": "Juan Carlos",
+        "apaterno": "Aranda",
+        "tipoTrabajador": "4",
+        "parametrosSueldo": [
+            "134",
+            "12"
+        ]
+    },
+    {
+        "idTrabajador": "T373",
+        "nombre": "Horacio",
+        "apaterno": "Sarmiento",
+        "tipoTrabajador": "4",
+        "parametrosSueldo": [
+            "120",
+            "11"
+        ]
+    },
+    {
+        "idTrabajador": "T374",
+        "nombre": "Margarita",
+        "apaterno": "Parra",
+        "tipoTrabajador": "4",
+        "parametrosSueldo": [
+            "129",
+            "14"
+        ]
+    },
+    {
+        "idTrabajador": "T375",
+        "nombre": "Clara",
+        "apaterno": "Fierro",
+        "tipoTrabajador": "4",
+        "parametrosSueldo": [
+            "137",
+            "15"
+        ]
+    },
+    {
+        "idTrabajador": "T376",
+        "nombre": "Sydney",
+        "apaterno": "Maldonado",
+        "tipoTrabajador": "3",
+        "parametrosSueldo": [
+            "224082"
+        ]
+    },
+    {
+        "idTrabajador": "T377",
+        "nombre": "Th\u00e9odore",
+        "apaterno": "Gomes",
+        "tipoTrabajador": "2",
+        "parametrosSueldo": [
+            "361",
+            "2760"
+        ]
+    },
+    {
+        "idTrabajador": "T378",
+        "nombre": "Pedro",
+        "apaterno": "Berenguer",
+        "tipoTrabajador": "1",
+        "parametrosSueldo": [
+            "371"
+        ]
+    },
+    {
+        "idTrabajador": "T379",
+        "nombre": "Amanda",
+        "apaterno": "Rangel",
+        "tipoTrabajador": "4",
+        "parametrosSueldo": [
+            "121",
+            "13"
+        ]
+    },
+    {
+        "idTrabajador": "T380",
+        "nombre": "Octavio",
+        "apaterno": "Reyes",
+        "tipoTrabajador": "4",
+        "parametrosSueldo": [
+            "124",
+            "10"
+        ]
+    },
+    {
+        "idTrabajador": "T381",
+        "nombre": "Clementina",
+        "apaterno": "Egiguren",
+        "tipoTrabajador": "2",
+        "parametrosSueldo": [
+            "372",
+            "2622"
+        ]
+    },
+    {
+        "idTrabajador": "T382",
+        "nombre": "Amelie",
+        "apaterno": "Tovar",
+        "tipoTrabajador": "4",
+        "parametrosSueldo": [
+            "135",
+            "11"
+        ]
+    },
+    {
+        "idTrabajador": "T383",
+        "nombre": "Arturo",
+        "apaterno": "Casals",
+        "tipoTrabajador": "2",
+        "parametrosSueldo": [
+            "438",
+            "2793"
+        ]
+    },
+    {
+        "idTrabajador": "T384",
+        "nombre": "Vittoria",
+        "apaterno": "Idigoras",
+        "tipoTrabajador": "3",
+        "parametrosSueldo": [
+            "229040"
+        ]
+    },
+    {
+        "idTrabajador": "T385",
+        "nombre": "Abigail",
+        "apaterno": "Villanueva",
+        "tipoTrabajador": "4",
+        "parametrosSueldo": [
+            "134",
+            "12"
+        ]
+    },
+    {
+        "idTrabajador": "T386",
+        "nombre": "Larissa",
+        "apaterno": "Puglisi",
+        "tipoTrabajador": "1",
+        "parametrosSueldo": [
+            "450"
+        ]
+    },
+    {
+        "idTrabajador": "T387",
+        "nombre": "Harry",
+        "apaterno": "Su\u00e1rez",
+        "tipoTrabajador": "1",
+        "parametrosSueldo": [
+            "446"
+        ]
+    },
+    {
+        "idTrabajador": "T388",
+        "nombre": "Alexander",
+        "apaterno": "Figueroa",
+        "tipoTrabajador": "2",
+        "parametrosSueldo": [
+            "368",
+            "2615"
+        ]
+    },
+    {
+        "idTrabajador": "T389",
+        "nombre": "Adalberto",
+        "apaterno": "Zabala",
+        "tipoTrabajador": "3",
+        "parametrosSueldo": [
+            "210398"
+        ]
+    },
+    {
+        "idTrabajador": "T390",
+        "nombre": "Isidore",
+        "apaterno": "Palma",
+        "tipoTrabajador": "2",
+        "parametrosSueldo": [
+            "383",
+            "2618"
+        ]
+    },
+    {
+        "idTrabajador": "T391",
+        "nombre": "Jos\u00e9 Antonio",
+        "apaterno": "N\u00fa\u00f1ez",
+        "tipoTrabajador": "3",
+        "parametrosSueldo": [
+            "221884"
+        ]
+    },
+    {
+        "idTrabajador": "T392",
+        "nombre": "Violeta",
+        "apaterno": "Z\u00fa\u00f1iga",
+        "tipoTrabajador": "4",
+        "parametrosSueldo": [
+            "125",
+            "11"
+        ]
+    },
+    {
+        "idTrabajador": "T393",
+        "nombre": "Carla",
+        "apaterno": "D'Amico",
+        "tipoTrabajador": "2",
+        "parametrosSueldo": [
+            "451",
+            "2504"
+        ]
+    },
+    {
+        "idTrabajador": "T394",
+        "nombre": "Casey",
+        "apaterno": "Uztarroz",
+        "tipoTrabajador": "3",
+        "parametrosSueldo": [
+            "221468"
+        ]
+    },
+    {
+        "idTrabajador": "T395",
+        "nombre": "L\u00e9o",
+        "apaterno": "Maiorano",
+        "tipoTrabajador": "1",
+        "parametrosSueldo": [
+            "548"
+        ]
+    },
+    {
+        "idTrabajador": "T396",
+        "nombre": "Claro",
+        "apaterno": "Cunillera",
+        "tipoTrabajador": "2",
+        "parametrosSueldo": [
+            "448",
+            "2658"
+        ]
+    },
+    {
+        "idTrabajador": "T397",
+        "nombre": "Hunter",
+        "apaterno": "Pacheco",
+        "tipoTrabajador": "3",
+        "parametrosSueldo": [
+            "217554"
+        ]
+    },
+    {
+        "idTrabajador": "T398",
+        "nombre": "Lena",
+        "apaterno": "Gean\u0103",
+        "tipoTrabajador": "3",
+        "parametrosSueldo": [
+            "207832"
+        ]
+    },
+    {
+        "idTrabajador": "T399",
+        "nombre": "Raquel",
+        "apaterno": "Bala\u00f1\u00e1",
+        "tipoTrabajador": "2",
+        "parametrosSueldo": [
+            "371",
+            "2865"
+        ]
+    },
+    {
+        "idTrabajador": "T400",
+        "nombre": "St\u00e9phane",
+        "apaterno": "Vasile",
+        "tipoTrabajador": "4",
+        "parametrosSueldo": [
+            "149",
+            "15"
+        ]
+    },
+    {
+        "idTrabajador": "T401",
+        "nombre": "R\u00e9mi",
+        "apaterno": "Medrano",
+        "tipoTrabajador": "3",
+        "parametrosSueldo": [
+            "227097"
+        ]
+    },
+    {
+        "idTrabajador": "T402",
+        "nombre": "Sydney",
+        "apaterno": "Ferrer",
+        "tipoTrabajador": "2",
+        "parametrosSueldo": [
+            "438",
+            "2500"
+        ]
+    },
+    {
+        "idTrabajador": "T403",
+        "nombre": "Laura",
+        "apaterno": "Mendes",
+        "tipoTrabajador": "2",
+        "parametrosSueldo": [
+            "361",
+            "2580"
+        ]
+    },
+    {
+        "idTrabajador": "T404",
+        "nombre": "Karina",
+        "apaterno": "Reyna",
+        "tipoTrabajador": "1",
+        "parametrosSueldo": [
+            "490"
+        ]
+    },
+    {
+        "idTrabajador": "T405",
+        "nombre": "Gabriela",
+        "apaterno": "Piqu\u00e9",
+        "tipoTrabajador": "2",
+        "parametrosSueldo": [
+            "413",
+            "2630"
+        ]
+    },
+    {
+        "idTrabajador": "T406",
+        "nombre": "Umberto",
+        "apaterno": "Flores",
+        "tipoTrabajador": "4",
+        "parametrosSueldo": [
+            "123",
+            "15"
+        ]
+    },
+    {
+        "idTrabajador": "T407",
+        "nombre": "Carlos",
+        "apaterno": "Esteban",
+        "tipoTrabajador": "3",
+        "parametrosSueldo": [
+            "223074"
+        ]
+    },
+    {
+        "idTrabajador": "T408",
+        "nombre": "Frieda",
+        "apaterno": "Marian",
+        "tipoTrabajador": "3",
+        "parametrosSueldo": [
+            "228880"
+        ]
+    },
+    {
+        "idTrabajador": "T409",
+        "nombre": "Sebasti\u00e1n",
+        "apaterno": "\u00c1vila",
+        "tipoTrabajador": "3",
+        "parametrosSueldo": [
+            "213626"
+        ]
+    },
+    {
+        "idTrabajador": "T410",
+        "nombre": "Andr\u00e9s",
+        "apaterno": "Moreira",
+        "tipoTrabajador": "3",
+        "parametrosSueldo": [
+            "237441"
+        ]
+    },
+    {
+        "idTrabajador": "T411",
+        "nombre": "Gabriel",
+        "apaterno": "Artigas",
+        "tipoTrabajador": "4",
+        "parametrosSueldo": [
+            "145",
+            "14"
+        ]
+    },
+    {
+        "idTrabajador": "T412",
+        "nombre": "James",
+        "apaterno": "Jaramillo",
+        "tipoTrabajador": "2",
+        "parametrosSueldo": [
+            "450",
+            "2874"
+        ]
+    },
+    {
+        "idTrabajador": "T413",
+        "nombre": "Jake",
+        "apaterno": "Santoro",
+        "tipoTrabajador": "2",
+        "parametrosSueldo": [
+            "355",
+            "2849"
+        ]
+    },
+    {
+        "idTrabajador": "T414",
+        "nombre": "Fausto",
+        "apaterno": "Gonz\u00e1lez",
+        "tipoTrabajador": "1",
+        "parametrosSueldo": [
+            "447"
+        ]
+    },
+    {
+        "idTrabajador": "T415",
+        "nombre": "Kylie",
+        "apaterno": "Camprub\u00ed",
+        "tipoTrabajador": "1",
+        "parametrosSueldo": [
+            "394"
+        ]
+    },
+    {
+        "idTrabajador": "T416",
+        "nombre": "Christopher",
+        "apaterno": "Zuloaga",
+        "tipoTrabajador": "4",
+        "parametrosSueldo": [
+            "134",
+            "12"
+        ]
+    },
+    {
+        "idTrabajador": "T417",
+        "nombre": "Alessandro",
+        "apaterno": "Bratu",
+        "tipoTrabajador": "1",
+        "parametrosSueldo": [
+            "485"
+        ]
+    },
+    {
+        "idTrabajador": "T418",
+        "nombre": "Elias",
+        "apaterno": "Batista",
+        "tipoTrabajador": "1",
+        "parametrosSueldo": [
+            "437"
+        ]
+    },
+    {
+        "idTrabajador": "T419",
+        "nombre": "Leandro",
+        "apaterno": "Manescu",
+        "tipoTrabajador": "3",
+        "parametrosSueldo": [
+            "219337"
+        ]
+    },
+    {
+        "idTrabajador": "T420",
+        "nombre": "Avery",
+        "apaterno": "Chac\u00f3n",
+        "tipoTrabajador": "3",
+        "parametrosSueldo": [
+            "207609"
+        ]
+    },
+    {
+        "idTrabajador": "T421",
+        "nombre": "Bastien",
+        "apaterno": "Ciocan",
+        "tipoTrabajador": "4",
+        "parametrosSueldo": [
+            "149",
+            "15"
+        ]
+    },
+    {
+        "idTrabajador": "T422",
+        "nombre": "Teodoro",
+        "apaterno": "Nadal",
+        "tipoTrabajador": "4",
+        "parametrosSueldo": [
+            "138",
+            "12"
+        ]
+    },
+    {
+        "idTrabajador": "T423",
+        "nombre": "Tobias",
+        "apaterno": "Torres",
+        "tipoTrabajador": "1",
+        "parametrosSueldo": [
+            "537"
+        ]
+    },
+    {
+        "idTrabajador": "T424",
+        "nombre": "Manuel",
+        "apaterno": "Santill\u00e1n",
+        "tipoTrabajador": "3",
+        "parametrosSueldo": [
+            "210721"
+        ]
+    },
+    {
+        "idTrabajador": "T425",
+        "nombre": "Wyatt",
+        "apaterno": "Gorostiaga",
+        "tipoTrabajador": "4",
+        "parametrosSueldo": [
+            "122",
+            "15"
+        ]
+    },
+    {
+        "idTrabajador": "T426",
+        "nombre": "Th\u00e9r\u00e8se",
+        "apaterno": "Pagani",
+        "tipoTrabajador": "1",
+        "parametrosSueldo": [
+            "342"
+        ]
+    },
+    {
+        "idTrabajador": "T427",
+        "nombre": "Alexander",
+        "apaterno": "Rangel",
+        "tipoTrabajador": "3",
+        "parametrosSueldo": [
+            "230971"
+        ]
+    },
+    {
+        "idTrabajador": "T428",
+        "nombre": "J\u00falia",
+        "apaterno": "Moncada",
+        "tipoTrabajador": "3",
+        "parametrosSueldo": [
+            "228067"
+        ]
+    },
+    {
+        "idTrabajador": "T429",
+        "nombre": "Matthew",
+        "apaterno": "Reyes",
+        "tipoTrabajador": "4",
+        "parametrosSueldo": [
+            "124",
+            "13"
+        ]
+    },
+    {
+        "idTrabajador": "T430",
+        "nombre": "Samuel",
+        "apaterno": "Oprea",
+        "tipoTrabajador": "2",
+        "parametrosSueldo": [
+            "402",
+            "2519"
+        ]
+    },
+    {
+        "idTrabajador": "T431",
+        "nombre": "Odette",
+        "apaterno": "P\u00e9rez",
+        "tipoTrabajador": "1",
+        "parametrosSueldo": [
+            "551"
+        ]
+    },
+    {
+        "idTrabajador": "T432",
+        "nombre": "Ren\u00e9e",
+        "apaterno": "Fuentes",
+        "tipoTrabajador": "2",
+        "parametrosSueldo": [
+            "369",
+            "2622"
+        ]
+    },
+    {
+        "idTrabajador": "T433",
+        "nombre": "Brayan",
+        "apaterno": "Gal\u00e1n",
+        "tipoTrabajador": "3",
+        "parametrosSueldo": [
+            "222541"
+        ]
+    },
+    {
+        "idTrabajador": "T434",
+        "nombre": "Riccardo",
+        "apaterno": "Ferr\u00e1n",
+        "tipoTrabajador": "1",
+        "parametrosSueldo": [
+            "409"
+        ]
+    },
+    {
+        "idTrabajador": "T435",
+        "nombre": "Leandro",
+        "apaterno": "Giorgi",
+        "tipoTrabajador": "2",
+        "parametrosSueldo": [
+            "355",
+            "2788"
+        ]
+    },
+    {
+        "idTrabajador": "T436",
+        "nombre": "Jasmine",
+        "apaterno": "Maldonado",
+        "tipoTrabajador": "1",
+        "parametrosSueldo": [
+            "387"
+        ]
+    },
+    {
+        "idTrabajador": "T437",
+        "nombre": "Elijah",
+        "apaterno": "Lopetegui",
+        "tipoTrabajador": "4",
+        "parametrosSueldo": [
+            "135",
+            "13"
+        ]
+    },
+    {
+        "idTrabajador": "T438",
+        "nombre": "Jordan",
+        "apaterno": "Cre\u021bu",
+        "tipoTrabajador": "4",
+        "parametrosSueldo": [
+            "138",
+            "15"
+        ]
+    },
+    {
+        "idTrabajador": "T439",
+        "nombre": "Mariana",
+        "apaterno": "Torres",
+        "tipoTrabajador": "2",
+        "parametrosSueldo": [
+            "434",
+            "2822"
+        ]
+    },
+    {
+        "idTrabajador": "T440",
+        "nombre": "Lucia",
+        "apaterno": "Caraballo",
+        "tipoTrabajador": "4",
+        "parametrosSueldo": [
+            "148",
+            "14"
+        ]
+    },
+    {
+        "idTrabajador": "T441",
+        "nombre": "Esperanza",
+        "apaterno": "Caraballo",
+        "tipoTrabajador": "1",
+        "parametrosSueldo": [
+            "432"
+        ]
+    },
+    {
+        "idTrabajador": "T442",
+        "nombre": "Marie",
+        "apaterno": "Pujol",
+        "tipoTrabajador": "3",
+        "parametrosSueldo": [
+            "217382"
+        ]
+    },
+    {
+        "idTrabajador": "T443",
+        "nombre": "N\u00e9stor",
+        "apaterno": "Tejeda",
+        "tipoTrabajador": "4",
+        "parametrosSueldo": [
+            "144",
+            "13"
+        ]
+    },
+    {
+        "idTrabajador": "T444",
+        "nombre": "Paulina",
+        "apaterno": "Piras",
+        "tipoTrabajador": "1",
+        "parametrosSueldo": [
+            "411"
+        ]
+    },
+    {
+        "idTrabajador": "T445",
+        "nombre": "Tyler",
+        "apaterno": "Arellano",
+        "tipoTrabajador": "1",
+        "parametrosSueldo": [
+            "493"
+        ]
+    },
+    {
+        "idTrabajador": "T446",
+        "nombre": "Felicia",
+        "apaterno": "Lezama",
+        "tipoTrabajador": "2",
+        "parametrosSueldo": [
+            "353",
+            "2593"
+        ]
+    },
+    {
+        "idTrabajador": "T447",
+        "nombre": "Perla",
+        "apaterno": "Rivera",
+        "tipoTrabajador": "4",
+        "parametrosSueldo": [
+            "121",
+            "11"
+        ]
+    },
+    {
+        "idTrabajador": "T448",
+        "nombre": "Viviana",
+        "apaterno": "Erazo",
+        "tipoTrabajador": "2",
+        "parametrosSueldo": [
+            "446",
+            "2509"
+        ]
+    },
+    {
+        "idTrabajador": "T449",
+        "nombre": "Pedro",
+        "apaterno": "Urrea",
+        "tipoTrabajador": "3",
+        "parametrosSueldo": [
+            "207615"
+        ]
+    },
+    {
+        "idTrabajador": "T450",
+        "nombre": "Daniele",
+        "apaterno": "Colombo",
+        "tipoTrabajador": "2",
+        "parametrosSueldo": [
+            "377",
+            "2869"
+        ]
+    },
+    {
+        "idTrabajador": "T451",
+        "nombre": "Paloma",
+        "apaterno": "Muneta",
+        "tipoTrabajador": "3",
+        "parametrosSueldo": [
+            "231574"
+        ]
+    },
+    {
+        "idTrabajador": "T452",
+        "nombre": "Quentin",
+        "apaterno": "Etxebarrieta",
+        "tipoTrabajador": "2",
+        "parametrosSueldo": [
+            "351",
+            "2645"
+        ]
+    },
+    {
+        "idTrabajador": "T453",
+        "nombre": "Enrique",
+        "apaterno": "Mendiguren",
+        "tipoTrabajador": "4",
+        "parametrosSueldo": [
+            "148",
+            "11"
+        ]
+    },
+    {
+        "idTrabajador": "T454",
+        "nombre": "Let\u00edcia",
+        "apaterno": "M\u00e1rquez",
+        "tipoTrabajador": "2",
+        "parametrosSueldo": [
+            "372",
+            "2730"
+        ]
+    },
+    {
+        "idTrabajador": "T455",
+        "nombre": "Serena",
+        "apaterno": "Popa",
+        "tipoTrabajador": "2",
+        "parametrosSueldo": [
+            "435",
+            "2702"
+        ]
+    },
+    {
+        "idTrabajador": "T456",
+        "nombre": "Desir\u00e9e",
+        "apaterno": "Mancini",
+        "tipoTrabajador": "2",
+        "parametrosSueldo": [
+            "419",
+            "2803"
+        ]
+    },
+    {
+        "idTrabajador": "T457",
+        "nombre": "Mart\u00edn",
+        "apaterno": "Tarrag\u00f3",
+        "tipoTrabajador": "1",
+        "parametrosSueldo": [
+            "320"
+        ]
+    },
+    {
+        "idTrabajador": "T458",
+        "nombre": "Mart\u00edn",
+        "apaterno": "Barbieri",
+        "tipoTrabajador": "3",
+        "parametrosSueldo": [
+            "209879"
+        ]
+    },
+    {
+        "idTrabajador": "T459",
+        "nombre": "Delphine",
+        "apaterno": "Gual",
+        "tipoTrabajador": "3",
+        "parametrosSueldo": [
+            "206453"
+        ]
+    },
+    {
+        "idTrabajador": "T460",
+        "nombre": "Jes\u00fas",
+        "apaterno": "Zugazaga",
+        "tipoTrabajador": "3",
+        "parametrosSueldo": [
+            "208555"
+        ]
+    },
+    {
+        "idTrabajador": "T461",
+        "nombre": "Scarlett",
+        "apaterno": "Gamarra",
+        "tipoTrabajador": "3",
+        "parametrosSueldo": [
+            "214698"
+        ]
+    },
+    {
+        "idTrabajador": "T462",
+        "nombre": "Daniel",
+        "apaterno": "Murillo",
+        "tipoTrabajador": "2",
+        "parametrosSueldo": [
+            "398",
+            "2598"
+        ]
+    },
+    {
+        "idTrabajador": "T463",
+        "nombre": "Colette",
+        "apaterno": "Santucci",
+        "tipoTrabajador": "2",
+        "parametrosSueldo": [
+            "353",
+            "2780"
+        ]
+    },
+    {
+        "idTrabajador": "T464",
+        "nombre": "Maya",
+        "apaterno": "Mihalache",
+        "tipoTrabajador": "4",
+        "parametrosSueldo": [
+            "134",
+            "11"
+        ]
+    },
+    {
+        "idTrabajador": "T465",
+        "nombre": "H\u00e9ctor",
+        "apaterno": "D\u00edaz",
+        "tipoTrabajador": "4",
+        "parametrosSueldo": [
+            "149",
+            "15"
+        ]
+    },
+    {
+        "idTrabajador": "T466",
+        "nombre": "Ricardo",
+        "apaterno": "Vilanova",
+        "tipoTrabajador": "2",
+        "parametrosSueldo": [
+            "432",
+            "2745"
+        ]
+    },
+    {
+        "idTrabajador": "T467",
+        "nombre": "Brandon",
+        "apaterno": "Ricciardi",
+        "tipoTrabajador": "1",
+        "parametrosSueldo": [
+            "368"
+        ]
+    },
+    {
+        "idTrabajador": "T468",
+        "nombre": "Bastien",
+        "apaterno": "Marinescu",
+        "tipoTrabajador": "2",
+        "parametrosSueldo": [
+            "430",
+            "2622"
+        ]
+    },
+    {
+        "idTrabajador": "T469",
+        "nombre": "Salvador",
+        "apaterno": "Damico",
+        "tipoTrabajador": "4",
+        "parametrosSueldo": [
+            "127",
+            "12"
+        ]
+    },
+    {
+        "idTrabajador": "T470",
+        "nombre": "Desir\u00e9e",
+        "apaterno": "Zorrozua",
+        "tipoTrabajador": "2",
+        "parametrosSueldo": [
+            "355",
+            "2851"
+        ]
+    },
+    {
+        "idTrabajador": "T471",
+        "nombre": "Ludovica",
+        "apaterno": "Chavarr\u00eda",
+        "tipoTrabajador": "3",
+        "parametrosSueldo": [
+            "236919"
+        ]
+    },
+    {
+        "idTrabajador": "T472",
+        "nombre": "Brandon",
+        "apaterno": "Molina",
+        "tipoTrabajador": "4",
+        "parametrosSueldo": [
+            "123",
+            "11"
+        ]
+    },
+    {
+        "idTrabajador": "T473",
+        "nombre": "Kennedy",
+        "apaterno": "Paniagua",
+        "tipoTrabajador": "1",
+        "parametrosSueldo": [
+            "345"
+        ]
+    },
+    {
+        "idTrabajador": "T474",
+        "nombre": "Juliana",
+        "apaterno": "Fuster",
+        "tipoTrabajador": "2",
+        "parametrosSueldo": [
+            "367",
+            "2794"
+        ]
+    },
+    {
+        "idTrabajador": "T475",
+        "nombre": "Felicia",
+        "apaterno": "Colmenares",
+        "tipoTrabajador": "1",
+        "parametrosSueldo": [
+            "403"
+        ]
+    },
+    {
+        "idTrabajador": "T476",
+        "nombre": "Horacio",
+        "apaterno": "Flores",
+        "tipoTrabajador": "1",
+        "parametrosSueldo": [
+            "456"
+        ]
+    },
+    {
+        "idTrabajador": "T477",
+        "nombre": "Ferm\u00edn",
+        "apaterno": "Lekuona",
+        "tipoTrabajador": "1",
+        "parametrosSueldo": [
+            "517"
+        ]
+    },
+    {
+        "idTrabajador": "T478",
+        "nombre": "Avery",
+        "apaterno": "Del R\u00edo",
+        "tipoTrabajador": "3",
+        "parametrosSueldo": [
+            "208495"
+        ]
+    },
+    {
+        "idTrabajador": "T479",
+        "nombre": "Amalia",
+        "apaterno": "Blanch",
+        "tipoTrabajador": "3",
+        "parametrosSueldo": [
+            "208759"
+        ]
+    },
+    {
+        "idTrabajador": "T480",
+        "nombre": "Jacinta",
+        "apaterno": "Berroeta",
+        "tipoTrabajador": "3",
+        "parametrosSueldo": [
+            "210616"
+        ]
+    },
+    {
+        "idTrabajador": "T481",
+        "nombre": "Mat\u00edas",
+        "apaterno": "Sim\u00f3",
+        "tipoTrabajador": "4",
+        "parametrosSueldo": [
+            "128",
+            "13"
+        ]
+    },
+    {
+        "idTrabajador": "T482",
+        "nombre": "Lauren",
+        "apaterno": "Zubia",
+        "tipoTrabajador": "4",
+        "parametrosSueldo": [
+            "138",
+            "15"
+        ]
+    },
+    {
+        "idTrabajador": "T483",
+        "nombre": "Jasper",
+        "apaterno": "Silva",
+        "tipoTrabajador": "4",
+        "parametrosSueldo": [
+            "148",
+            "14"
+        ]
+    },
+    {
+        "idTrabajador": "T484",
+        "nombre": "Alexandre",
+        "apaterno": "Chavarr\u00eda",
+        "tipoTrabajador": "3",
+        "parametrosSueldo": [
+            "217080"
+        ]
+    },
+    {
+        "idTrabajador": "T485",
+        "nombre": "Regina",
+        "apaterno": "Ferreira",
+        "tipoTrabajador": "4",
+        "parametrosSueldo": [
+            "146",
+            "11"
+        ]
+    },
+    {
+        "idTrabajador": "T486",
+        "nombre": "Faith",
+        "apaterno": "C\u00e1ceres",
+        "tipoTrabajador": "4",
+        "parametrosSueldo": [
+            "130",
+            "11"
+        ]
+    },
+    {
+        "idTrabajador": "T487",
+        "nombre": "Alejandra",
+        "apaterno": "Silvestri",
+        "tipoTrabajador": "2",
+        "parametrosSueldo": [
+            "409",
+            "2505"
+        ]
+    },
+    {
+        "idTrabajador": "T488",
+        "nombre": "Alessio",
+        "apaterno": "Campos",
+        "tipoTrabajador": "2",
+        "parametrosSueldo": [
+            "422",
+            "2864"
+        ]
+    },
+    {
+        "idTrabajador": "T489",
+        "nombre": "Logan",
+        "apaterno": "Machado",
+        "tipoTrabajador": "1",
+        "parametrosSueldo": [
+            "398"
+        ]
+    },
+    {
+        "idTrabajador": "T490",
+        "nombre": "Ximena",
+        "apaterno": "Munteanu",
+        "tipoTrabajador": "3",
+        "parametrosSueldo": [
+            "222739"
+        ]
+    },
+    {
+        "idTrabajador": "T491",
+        "nombre": "Harper",
+        "apaterno": "Etxeita",
+        "tipoTrabajador": "2",
+        "parametrosSueldo": [
+            "404",
+            "2632"
+        ]
+    },
+    {
+        "idTrabajador": "T492",
+        "nombre": "Jer\u00f3nimo",
+        "apaterno": "Anghel",
+        "tipoTrabajador": "2",
+        "parametrosSueldo": [
+            "435",
+            "2651"
+        ]
+    },
+    {
+        "idTrabajador": "T493",
+        "nombre": "Chris",
+        "apaterno": "Elizalde",
+        "tipoTrabajador": "3",
+        "parametrosSueldo": [
+            "238659"
+        ]
+    },
+    {
+        "idTrabajador": "T494",
+        "nombre": "Isabelle",
+        "apaterno": "Gamarra",
+        "tipoTrabajador": "4",
+        "parametrosSueldo": [
+            "128",
+            "10"
+        ]
+    },
+    {
+        "idTrabajador": "T495",
+        "nombre": "Jack",
+        "apaterno": "Fuster",
+        "tipoTrabajador": "1",
+        "parametrosSueldo": [
+            "311"
+        ]
+    },
+    {
+        "idTrabajador": "T496",
+        "nombre": "Yann",
+        "apaterno": "Llobet",
+        "tipoTrabajador": "1",
+        "parametrosSueldo": [
+            "498"
+        ]
+    },
+    {
+        "idTrabajador": "T497",
+        "nombre": "Mathieu",
+        "apaterno": "Arrieta",
+        "tipoTrabajador": "3",
+        "parametrosSueldo": [
+            "238193"
+        ]
+    },
+    {
+        "idTrabajador": "T498",
+        "nombre": "Morgan",
+        "apaterno": "Beobide",
+        "tipoTrabajador": "4",
+        "parametrosSueldo": [
+            "121",
+            "15"
+        ]
+    },
+    {
+        "idTrabajador": "T499",
+        "nombre": "Sara",
+        "apaterno": "Stoica",
+        "tipoTrabajador": "2",
+        "parametrosSueldo": [
+            "404",
+            "2743"
+        ]
+    },
+    {
+        "idTrabajador": "T500",
+        "nombre": "Nicole",
+        "apaterno": "Amador",
+        "tipoTrabajador": "3",
+        "parametrosSueldo": [
+            "221081"
+        ]
+    }
+]

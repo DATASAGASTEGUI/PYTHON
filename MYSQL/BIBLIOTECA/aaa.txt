@@ -1,0 +1,56 @@
+DISEÑAR UN DIAGRAMA ENTIDAD RELACION PARA UNA APLICACION DE GESTION DE BIBLIOTECA
+---------------------------------------------------------------------------------
+
+LIBRO(ID_LIBRO, IBAN, TITULO, EDITORIAL, NUMERO_PAGINAS, FECHA_PUBLICACION, PRECIO)
+
+AUTOR(ID_AUTOR, NOMBRES_APELLIDOS, FECHA_NACIMIENTO)
+
+LECTOR(ID_LECTOR, NOMBRE_APELLIDOS, TELEFONO, DIRECCION, DNI)
+
+LIBRO          AUTOR
+1              *
+*              1
+
+
+PRESTAMOS
+---------
+LECTOR            LIBRO
+1                 *
+*                 1
+
+                    NUMERO_TRANSACCION
+LIBRO1   LECTOR1    1             
+
+LIBRO1   LECTOR1    2
+         LECTOR2    3
+
+LIBRO2   LECTOR1
+         LECTOR3
+
+LIBRO3   LECTOR3
+         LECTOR4
+
+
+CATEGORIA(ID_CATEGORIA, DESCRIPCION)
+                        
+
+LIBRO           CATEGORIA
+1               1
+*               1
+0	14	17:01:21	INSERT INTO autor_x_libro (id_libro, id_autor) VALUES
+ ('L001', 'A001'),
+ ('L002', 'A002'),
+ ('L003', 'A003'),
+ ('L004', 'A004'),
+ ('L005', 'A005'), -- Ready Player One (Ciencia Ficción)
+ ('L006', 'A006'), -- El nombre del viento (Fantasía)
+ ('L007', 'A007'), -- Asesinato en el Orient Express (Misterio)
+ ('L008', 'A008'), -- Bajo la misma estrella (Romance)
+ ('L009', 'A009')	Error Code: 1452. Cannot add or update a child row: 
+a foreign key constraint fails (`biblioteca`.`autor_x_libro`, CONSTRAINT `autor_x_libro_ibfk_2` 
+FOREIGN KEY (`id_autor`) REFERENCES `autor` (`id_autor`))	0.015 sec
+
+
+
+
+

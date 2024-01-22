@@ -1,0 +1,91 @@
+- MOSTRAR LAS ASIGNTURAS POR ALUMNO
+
+SELECT a.idAlumno, a.nombre, aa.idAsignatura, asi.nombre
+FROM Alumno a
+JOIN Alumnos_x_Asignatura aa ON a.idAlumno = aa.idAlumno
+JOIN Asignatura asi ON asi.idAsignatura = aa.idAsignatura
+ORDER BY a.idAlumno;
+
+- MOSTRAR EL NUMERO DE ASIGNATURAS POR ALUMNO
+
+SELECT a.idAlumno, a.nombre, COUNT(aa.idAsignatura)
+FROM Alumno a
+JOIN Alumnos_x_Asignatura aa ON a.idAlumno = aa.idAlumno
+JOIN Asignatura asi ON asi.idAsignatura = aa.idAsignatura
+GROUP BY a.idAlumno
+ORDER BY a.idAlumno;
+
+- MOSTRAR LOS ALUMNOS POR MODULO
+
+SELECT m.codigoModulo, m.nombre, am.idAlumno, a.nombre
+FROM Modulo m
+JOIN Alumnos_x_Modulo am ON m.codigoModulo = am.codigoModulo
+JOIN Alumno a ON a.idAlumno = am.idAlumno
+ORDER BY m.codigoModulo;
+
+- MOSTRAR LAS ASIGNATURAS POR MODULO
+
+SELECT m.codigoModulo, m.nombre, asi.idAsignatura, asi.nombre
+FROM Modulo m
+JOIN Asignatura asi ON m.codigoModulo = asi.codigoModulo;
+
+- MOSTRAR LA CANTIDAD DE ASIGNATURAS POR MODULO Y LUEGO
+  MOSTRAREMOS LOS MODULOS QUE TIENE MAS DE 3 ASIGNATURAS
+
+SELECT m.codigoModulo, m.nombre, COUNT(asi.idAsignatura)
+FROM Modulo m
+JOIN Asignatura asi ON m.codigoModulo = asi.codigoModulo
+GROUP BY m.codigoModulo;
+
+
+SELECT m.codigoModulo, m.nombre, COUNT(asi.idAsignatura)
+FROM Modulo m
+JOIN Asignatura asi ON m.codigoModulo = asi.codigoModulo
+GROUP BY m.codigoModulo
+HAVING COUNT(asi.idAsignatura) > 3;
+
+- MOSTRAR QUE MODULOS TIENEN 2 ASIGNATURAS
+
+SELECT m.codigoModulo, m.nombre, COUNT(asi.idAsignatura)
+FROM Modulo m
+JOIN Asignatura asi ON m.codigoModulo = asi.codigoModulo
+GROUP BY m.codigoModulo
+HAVING COUNT(asi.idAsignatura) = 2;
+
+- MOSTRAR LAS ASIGNATURAS POR PROFESOR
+
+(JOIN IMPLICITO)
+
+SELECT p.dni, p.nombre, asi.idAsignatura, asi.nombre
+FROM Profesor p, Modulo m, Asignatura asi
+WHERE p.dni = m.dni AND m.codigoModulo = asi.codigoModulo;
+
+(JOIN EXPLICITO)
+
+SELECT p.dni, p.nombre, asi.idAsignatura, asi.nombre
+FROM Profesor p 
+JOIN Modulo m ON p.dni = m.dni
+JOIN  Asignatura asi ON m.codigoModulo = asi.codigoModulo;
+
+- MOSTRAR LA CANTIDAD DE ASIGNATURAS POR CADA PROFESOR
+
+(JOIN IMPLICITO)
+
+SELECT p.dni, p.nombre, COUNT(asi.idAsignatura)
+FROM Profesor p, Modulo m, Asignatura asi
+WHERE p.dni = m.dni AND m.codigoModulo = asi.codigoModulo
+GROUP BY p.nombre; 
+
+(JOIN EXPLICITO)
+
+SELECT p.dni, p.nombre, COUNT(asi.idAsignatura)
+FROM Profesor p 
+JOIN Modulo m ON p.dni = m.dni
+JOIN  Asignatura asi ON m.codigoModulo = asi.codigoModulo
+GROUP BY p.nombre;
+
+
+
+
+
+

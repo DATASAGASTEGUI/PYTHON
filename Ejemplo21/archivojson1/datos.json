@@ -1,0 +1,23 @@
+[
+{
+    "idTrabajador": "T1",
+    "nombre": "Lucrezia",
+    "apaterno": "Berrocal",
+    "tipoTrabajador": 1,
+    "parametrossueldo_lst": [532]
+},
+{
+    "idTrabajador": "T2",
+    "nombre": "Faith",
+    "apaterno": "Olmedo",
+    "tipoTrabajador": 4,
+    "parametrossueldo_lst": [149,10]
+},
+{
+    "idTrabajador": "T3",
+    "nombre": "Nathalie",
+    "apaterno": "Moncada",
+    "tipoTrabajador": 1,
+    "parametrossueldo_lst": [311]
+}
+]

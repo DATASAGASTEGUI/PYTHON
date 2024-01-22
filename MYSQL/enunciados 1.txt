@@ -1,0 +1,21 @@
+-------------------------------------
+HACER UN PROGRAMA QUE PIDA
+EL CODIGO DEL ALUMNO SI
+EXISTE MUESTRA EL REGISTRO.
+SI NO EXISTE PIDE EL NOMBRE
+Y PROCEDE A INSERTAR EL ALUMNO
+POO
+HAY QUE CREAR UNA CLASE ALUMNO
+Y RECUPERAR TODOS LOS ALUMNOS
+EN UN ARRAYLIST
+------------------------------------
+1. VENTA DE ENTRADAS
+
+El usuario debe identificarse: usuario y clave
+Si no existe dicho usuario el sistema
+pedira que se registre: usuario, edad, direccion, clave
+Si el usuario existe: entonces pedira cuantas entradas
+desea comprar y registrará dicha informacion para el usuario.
+y al finalizar mostrara el monto a pagar
+
+

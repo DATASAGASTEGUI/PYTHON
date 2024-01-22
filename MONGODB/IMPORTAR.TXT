@@ -1,0 +1,3 @@
+mongoimport 02_retail_employee.json -d 02_retail -c employee --jsonArray --drop
+
+mongoimport 01_tienda_producto.json -d 01_tienda -c producto --jsonArray --drop

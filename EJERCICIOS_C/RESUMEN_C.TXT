@@ -1,0 +1,24 @@
+ESPECIFICADORES DE FORMATO
+--------------------------
+ENTEROS                    		%d   int
+
+REALES(PUNTO FLOTANTE)     		%f   float
+								%lf  double
+						   
+CARACTER                   		%c   char
+
+CADENA(ARREGLO DE CARACTERES)   %s
+
+LOGICO                     		(SIMULACION)
+
+FUNCIONES QUE PROVEE
+--------------------
+stdio.h: printf, scanf
+stdbool.h:
+
+OPERADOR TERNARIO = OPERADOR CONDICIONAL TERNARIO
+-------------------------------------------------
+expresion ? salida1 : salida2
+
+
+

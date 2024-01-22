@@ -1,0 +1,23 @@
+
+
+--------------------------------------------------------------------------------
+C011.c (29)
+
+Escribir   un   programa   en  C que  convierta un número dado de segundos en su 
+equivalente en horas, minutos y segundos, y escriba  el  resultado  en  pantalla
+con el formato:  hh:mm:ss
+--------------------------------------------------------------------------------
+C012.c (30)
+
+Escribir un programa en C que calcule la suma de los 60 primeros números impares
+mostrando el resultado en pantalla.
+--------------------------------------------------------------------------------
+
+
+--------------------------------------------------------------------------------
+
+
+--------------------------------------------------------------------------------
+
+
+--------------------------------------------------------------------------------
