@@ -1,0 +1,638 @@
+(01) CREAR UNA BASE DE DATOS
+
+cls               # Limpiar la pantalla
+   
+show dbs          # Mostrar todas las bases de datos
+show databases  
+
+# FORMA 1
+use cafeteria_1             # Crear o Seleccionar(abrir) una base datos
+db.tipo_cafe.insertOne({})  # Logran que la base de datos se grabe en disco
+
+# FORMA 2
+use cafeteria_4; # Memoria RAM
+db.createCollection('tipo_cafe'); # Guarda en disco duro
+show dbs;
+
+db.dropDatabase() # Borrar una base de datos
+
+(02) AÑADIR DOCUMENTOS A UNA COLECCION
+
+- FORMA 1: INSERTAR UN SOLO DOCUMENTO: insertONe
+
+db.tipo_cafe.insertOne({
+    'nombre': 'Arturo',
+    'bebida': 'Café Americano'  
+  });
+
+- FORMA 2: INSERTAR MUCHOS DOCUMENTOS (LISTA): insertMany
+
+db.tipo_cafe.insertMany([
+    {
+        'nombre': 'Ramon',
+        'bebida': 'Café Latte'  
+    },
+    {
+        'nombre': 'José',
+        'bebida': 'Café Americano'  
+    }
+]);
+
+db.tipo_cafe.find(); # MOSTRAR TODOS LOS DOCUMENTOS DE UNA COLECCION
+
+- (03) PONER MANUALMENTE EL _ID
+
+db.tipo_cafe.insertOne({
+    _id: 1,
+    nombre: 'Miguel',
+    bebida: 'Cappuccino'
+});
+
+db.tipo_cafe.insertOne({ _id: 'Nuevo Id', nombre: 'Miguel', bebida: 'Cappuccino' })
+
+- (04) BUSCAR UN DOCUMENTO
+
+* Buscar el documento de nombre Miguel
+
+db.tipo_cafe.find({nombre: 'Miguel'});
+
+* Buscar1 el documento con el _id 1
+
+db.tipo_cafe.find({_id: 1});
+
+* Buscar con mas de un campo
+
+db.tipo_cafe.insertOne({
+    _id: 5,
+    nombre: 'José',
+    bebida: 'Capuccino'
+  });
+
+db.tipo_cafe.find({nombre: 'José', bebida: 'Capuccino'});
+
+- (05) MOSTRAR UN LISTADO USANDO UN CURSOR
+
+db.consulta.find(); # de 20 en 20
+
+db.consulta.find().forEach((x) => {printjson(x)}); # Muestra todo 
+
+db.consulta.find().toArray(); # Me trae todo de una vez en una lista (satura la RAM)
+
+db.consulta.insertMany([
+    {
+        "numeroConsulta": 1,
+        "fecha": "2012-01-02",
+        "nombreMedico": "JUAN ANTONIO LEON LUIS",
+        "deinpr": "INDUCCION",
+        "procedencia": "URGENCIAS"
+    },
+    {
+        "numeroConsulta": 2,
+        "fecha": "2012-01-02",
+        "nombreMedico": "CONCEPCION HERNANDEZ MARTIN",
+        "deinpr": "INDUCCION",
+        "procedencia": "CONSULTA"
+    },
+    {
+        "numeroConsulta": 3,
+        "fecha": "2012-01-02",
+        "nombreMedico": "CRISTINA OLIVER BARRECHEGUREN",
+        "deinpr": "CESAREA",
+        "procedencia": "CONSULTA"
+    },
+    {
+        "numeroConsulta": 4,
+        "fecha": "2012-01-02",
+        "nombreMedico": "CRISTINA OLIVER BARRECHEGUREN",
+        "deinpr": "INDUCCION",
+        "procedencia": "CONSULTA"
+    },
+    {
+        "numeroConsulta": 5,
+        "fecha": "2012-01-02",
+        "nombreMedico": "LOURDES FATIMA YLLANA PEREZ",
+        "deinpr": "CESAREA",
+        "procedencia": "CONSULTA"
+    },
+    {
+        "numeroConsulta": 6,
+        "fecha": "2012-01-02",
+        "nombreMedico": "LOURDES FATIMA YLLANA PEREZ",
+        "deinpr": "CESAREA",
+        "procedencia": "CONSULTA"
+    },
+    {
+        "numeroConsulta": 7,
+        "fecha": "2012-01-02",
+        "nombreMedico": "TATIANA CUESTA GUARDIOLA",
+        "deinpr": "INDUCCION",
+        "procedencia": "URGENCIAS"
+    },
+    {
+        "numeroConsulta": 8,
+        "fecha": "2012-01-03",
+        "nombreMedico": "CRISTINA OLIVER BARRECHEGUREN",
+        "deinpr": "INDUCCION",
+        "procedencia": "CONSULTA"
+    },
+    {
+        "numeroConsulta": 9,
+        "fecha": "2012-01-03",
+        "nombreMedico": "CRISTINA OLIVER BARRECHEGUREN",
+        "deinpr": "CESAREA",
+        "procedencia": "CONSULTA"
+    },
+    {
+        "numeroConsulta": 10,
+        "fecha": "2012-01-03",
+        "nombreMedico": "CRISTINA OLIVER BARRECHEGUREN",
+        "deinpr": "INDUCCION",
+        "procedencia": "CONSULTA"
+    },
+    {
+        "numeroConsulta": 11,
+        "fecha": "2012-01-03",
+        "nombreMedico": "LOURDES FATIMA YLLANA PEREZ",
+        "deinpr": "INDUCCION",
+        "procedencia": "CONSULTA"
+    },
+    {
+        "numeroConsulta": 12,
+        "fecha": "2012-01-03",
+        "nombreMedico": "LOURDES FATIMA YLLANA PEREZ",
+        "deinpr": "CESAREA",
+        "procedencia": "CONSULTA"
+    },
+    {
+        "numeroConsulta": 13,
+        "fecha": "2012-01-04",
+        "nombreMedico": "VIRGINIA ORTEGA ABAD",
+        "deinpr": "INDUCCION",
+        "procedencia": "CONSULTA"
+    },
+    {
+        "numeroConsulta": 14,
+        "fecha": "2012-01-04",
+        "nombreMedico": "VIRGINIA ORTEGA ABAD",
+        "deinpr": "INDUCCION",
+        "procedencia": "CONSULTA"
+    },
+    {
+        "numeroConsulta": 15,
+        "fecha": "2012-01-04",
+        "nombreMedico": "VIRGINIA ORTEGA ABAD",
+        "deinpr": "INDUCCION",
+        "procedencia": "CONSULTA"
+    },
+    {
+        "numeroConsulta": 16,
+        "fecha": "2012-01-05",
+        "nombreMedico": "CRISTINA OLIVER BARRECHEGUREN",
+        "deinpr": "INDUCCION",
+        "procedencia": "CONSULTA"
+    },
+    {
+        "numeroConsulta": 17,
+        "fecha": "2012-01-05",
+        "nombreMedico": "LOURDES FATIMA YLLANA PEREZ",
+        "deinpr": "INDUCCION",
+        "procedencia": "CONSULTA"
+    },
+    {
+        "numeroConsulta": 18,
+        "fecha": "2012-01-06",
+        "nombreMedico": "MARIA CARMEN VI\u00d1UELA BENEITEZ",
+        "deinpr": "INDUCCION",
+        "procedencia": "CONSULTA"
+    },
+    {
+        "numeroConsulta": 19,
+        "fecha": "2012-01-06",
+        "nombreMedico": "CRISTINA OLIVER BARRECHEGUREN",
+        "deinpr": "INDUCCION",
+        "procedencia": "CONSULTA"
+    },
+    {
+        "numeroConsulta": 20,
+        "fecha": "2012-01-06",
+        "nombreMedico": "RAQUEL MORENO MOLINA",
+        "deinpr": "INDUCCION",
+        "procedencia": "URGENCIAS"
+    },
+    {
+        "numeroConsulta": 21,
+        "fecha": "2012-01-06",
+        "nombreMedico": "VIRGINIA ORTEGA ABAD",
+        "deinpr": "INDUCCION",
+        "procedencia": "CONSULTA"
+    },
+    {
+        "numeroConsulta": 22,
+        "fecha": "2012-01-07",
+        "nombreMedico": "MARIA CARMEN VI\u00d1UELA BENEITEZ",
+        "deinpr": "INDUCCION",
+        "procedencia": "CONSULTA"
+    },
+    {
+        "numeroConsulta": 23,
+        "fecha": "2012-01-07",
+        "nombreMedico": "CRISTINA OLIVER BARRECHEGUREN",
+        "deinpr": "INDUCCION",
+        "procedencia": "CONSULTA"
+    },
+    {
+        "numeroConsulta": 24,
+        "fecha": "2012-01-08",
+        "nombreMedico": "VIRGINIA ORTEGA ABAD",
+        "deinpr": "INDUCCION",
+        "procedencia": "CONSULTA"
+    },
+    {
+        "numeroConsulta": 25,
+        "fecha": "2012-01-09",
+        "nombreMedico": "ANA PEREDA",
+        "deinpr": "INDUCCION",
+        "procedencia": "URGENCIAS"
+    },
+    {
+        "numeroConsulta": 26,
+        "fecha": "2012-01-09",
+        "nombreMedico": "CONCEPCION HERNANDEZ MARTIN",
+        "deinpr": "CESAREA",
+        "procedencia": "CONSULTA"
+    },
+    {
+        "numeroConsulta": 27,
+        "fecha": "2012-01-09",
+        "nombreMedico": "CONCEPCION HERNANDEZ MARTIN",
+        "deinpr": "INDUCCION",
+        "procedencia": "CONSULTA"
+    },
+    {
+        "numeroConsulta": 28,
+        "fecha": "2012-01-09",
+        "nombreMedico": "CONCEPCION HERNANDEZ MARTIN",
+        "deinpr": "INDUCCION",
+        "procedencia": "CONSULTA"
+    },
+    {
+        "numeroConsulta": 29,
+        "fecha": "2012-01-09",
+        "nombreMedico": "CRISTINA OLIVER BARRECHEGUREN",
+        "deinpr": "CESAREA",
+        "procedencia": "CONSULTA"
+    },
+    {
+        "numeroConsulta": 30,
+        "fecha": "2012-01-10",
+        "nombreMedico": "CONCEPCION HERNANDEZ MARTIN",
+        "deinpr": "INDUCCION",
+        "procedencia": "CONSULTA"
+    },
+    {
+        "numeroConsulta": 31,
+        "fecha": "2012-01-10",
+        "nombreMedico": "CONCEPCION HERNANDEZ MARTIN",
+        "deinpr": "INDUCCION",
+        "procedencia": "CONSULTA"
+    },
+    {
+        "numeroConsulta": 32,
+        "fecha": "2012-01-10",
+        "nombreMedico": "CONCEPCION HERNANDEZ MARTIN",
+        "deinpr": "CESAREA",
+        "procedencia": "CONSULTA"
+    },
+    {
+        "numeroConsulta": 33,
+        "fecha": "2012-01-10",
+        "nombreMedico": "CONCEPCION HERNANDEZ MARTIN",
+        "deinpr": "INDUCCION",
+        "procedencia": "CONSULTA"
+    },
+    {
+        "numeroConsulta": 34,
+        "fecha": "2012-01-10",
+        "nombreMedico": "LOURDES FATIMA YLLANA PEREZ",
+        "deinpr": "CESAREA",
+        "procedencia": "CONSULTA"
+    },
+    {
+        "numeroConsulta": 35,
+        "fecha": "2012-01-10",
+        "nombreMedico": "RAQUEL PEREZ LUCAS",
+        "deinpr": "INDUCCION",
+        "procedencia": "CONSULTA"
+    },
+    {
+        "numeroConsulta": 36,
+        "fecha": "2012-01-11",
+        "nombreMedico": "CONCEPCION HERNANDEZ MARTIN",
+        "deinpr": "INDUCCION",
+        "procedencia": "CONSULTA"
+    },
+    {
+        "numeroConsulta": 37,
+        "fecha": "2012-01-11",
+        "nombreMedico": "CONCEPCION HERNANDEZ MARTIN",
+        "deinpr": "CESAREA",
+        "procedencia": "CONSULTA"
+    },
+    {
+        "numeroConsulta": 38,
+        "fecha": "2012-01-11",
+        "nombreMedico": "CRISTINA OLIVER BARRECHEGUREN",
+        "deinpr": "INDUCCION",
+        "procedencia": "CONSULTA"
+    },
+    {
+        "numeroConsulta": 39,
+        "fecha": "2012-01-11",
+        "nombreMedico": "RAQUEL PEREZ LUCAS",
+        "deinpr": "INDUCCION",
+        "procedencia": "CONSULTA"
+    },
+    {
+        "numeroConsulta": 40,
+        "fecha": "2012-01-11",
+        "nombreMedico": "RAQUEL PEREZ LUCAS",
+        "deinpr": "INDUCCION",
+        "procedencia": "CONSULTA"
+    },
+    {
+        "numeroConsulta": 41,
+        "fecha": "2012-01-11",
+        "nombreMedico": "VIRGINIA ORTEGA ABAD",
+        "deinpr": "CESAREA",
+        "procedencia": "CONSULTA"
+    }]);
+ 
+ - (05) PROYECCION: TRAER SOLO LOS CAMPOS QUE NECESITAMOS
+
+ db.consulta.find({},{numeroConsulta: 1, nombreMedico: 1, _id: 0});
+
+ - (06) ELIMINAR DOCUMENTOS
+
+ * Eliminar por _id un documento de la coleccion tipo_cafe
+
+ db.tipo_cafe.deleteOne({_id: "Nuevo Id"});
+
+ * Eliminar por nombre
+
+db.tipo_cafe.deleteOne({nombre: "Miguel"});
+db.tipo_cafe.deleteMany({nombre: "José"});
+
+* Eliminar todos los documentos
+
+db.tipo_cafe.deleteMany({});
+
+- (07) CREAR UN CAMPO EN UN DOCUMENTO (UPDATE)
+
+db.tipo_cafe.insertMany([
+    {
+        'nombre': 'Ramon',
+        'bebida': 'Café Latte'  
+    },
+    {
+        'nombre': 'José',
+        'bebida': 'Café Americano'  
+    }
+]);
+
+db.tipo_cafe.updateOne({nombre: 'Ramon'}, {$set: {etiqueta: 'Atendido'}});
+db.tipo_cafe.updateOne({},{})
+
+- (08) IMPORTAR ARCHIVO JSON HACIA MONGODB
+
+mongoimport salud_consulta.json -d salud -c consulta --jsonArray --drop
+mongoimport 01_tienda_producto.json -d 01_tienda -c producto --jsonArray --drop                              
+
+
+******************************************
+***   CONSULTAS BASE DATOS 01_TIENDA   ***
+******************************************
+
+db.nombre_coleccion.find(filtro,opcion)
+                        {},{}
+
+(1) MOSTRAR TODOS LOS DOCUMENTOS DE LA COLECCION PRODUCTO
+
+db.producto.find();   Traer de 20 en 20
+db.producto.find().forEach((x) => {printjson(x)}); Traer de 1 en 1
+db.producto.find().toArray(); Trae todo en una lista (peligroso)
+
+(2) MOSTRAR LOS PRODUCTOS QUE TIENEN UN PRECIO DE 800 EUROS
+
+db.producto.find({precio: 800});
+
+db.producto.find({precio: 800},{nombre: 1, precio: 1, _id: 0});
+
+db.producto.find({precio: 800},{nombre: 1, _id: 0});
+
+(3) MOSTRAR TODOS LOS DOCUMENTOS ORDENADO POR EL _ID
+
+db.producto.find().sort({_id: 1});      ASC
+db.producto.find().sort({_id: -1});     DESC
+
+(4) MOSTRAR TODOS LOS DOCUMENTOS ORDENADO POR EL _ID
+    PERO SOLO LOS CAMPOS _ID Y NOMBRE
+
+db.producto.find({},{nombre: 1}).sort({_id: 1});
+
+(5) MOSTRAR LAS DISTINTAS CATEGORIAS QUE EXISTEN
+
+db.producto.distinct("categorias");
+
+(6) MOSTRAR TODAS LAS MARCAS DISTINTAS
+
+db.producto.distinct("caracteristicas.marca");
+
+(7) MOSTRAR TODOS LOS PRODUCTOS QUE PERTENEZCA 
+    A LA CATEGORIA FOTOGRAFIA
+
+db.producto.find({"categorias": "fotografía"},{categorias:1, nombre: 1});
+
+(8) MOSTRAR LA CANTIDAD TOTAL DE CATEGORIAS QUE EXISTEN
+
+db.producto.distinct("categorias").length;
+
+(9) MOSTRAR LA CANTIDAD TOTAL DE MARCAS QUE EXISTEN EN LA TIENDA
+
+db.producto.distinct("caracteristicas.marca").length;
+
+(10) ELIMINAR EL DOCUMENTO CON _ID 50
+
+db.producto.deleteOne({_id: 50})
+
+(11) CREAR UNA BASE DE DATOS
+FORMA 1:
+use probando;
+db.coleccion1.insertOne({});
+
+FORMA 2:
+- MONGODB
+use probando2;
+db.createCollection('coleccion2');
+- PYTHON
+db.create_collection("nueva_coleccion")
+
+(12) ELIMINAR UNA BASE DE DATOS
+
+db.dropDatabase();
+
+(13) ELIMINAR UNA COLECCION
+
+db.vendedor.drop()
+
+(14) OPERADORES DE COMPARACION
+
+$eq: Equivalente a ==
+$ne: Equivalente a !=
+$gt: Mayor que >
+$gte: Mayor o igual que >=
+$lt: Menor que <
+$lte: Menor o igual que <=
+$in: Equivalente a IN en SQL
+$nin: No está en, equivalente a NOT IN en SQL
+
+EJEMPLOS
+
+- MOSTRAR TODOS LOS PRODUCTOS MAYORES A 800 EUROS EN EL PRECIO
+
+precio: {$gt: 800}       // precio > 800  Filtro
+nombre: 1                // opcion
+
+db.producto.find({},{})  // Sintaxis de la funcion find(filtro,opcion)
+
+db.producto.find({precio: {$gt: 800}},{nombre: 1});
+
+CONTAR EL RESULTADO
+db.producto.find({precio: {$gt: 800}},{nombre: 1}).count();
+
+- MOSTRAR LOS PRODUCTOS QUE ESTEN EN UN INVENTARIO DE 10 O 15 UNIDADES 
+
+inventario: {$in: [10, 15]}     //Filtro
+nombre: 1, inventario: 1        //Opcion
+
+db.producto.find({},{})  // Sintaxis de la funcion find(filtro,opcion)
+db.producto.find({inventario: {$in: [10, 15]}},{nombre: 1, inventario: 1 });
+
+- MOSTRAR LOS PRODUCTOS CUYO PRECIO ESTE EN EL RANGO [800,1000]
+
+precio: {$gte: 800}, precio: {$lte: 1000} // filtro  precio >= 800 Y precio <= 1000
+nombre: 1, precio:1                       // opcion
+
+SINTAXIS DEL OPERADOR AND
+"$and": [{"campo1": valor1}, {"campo2": valor2}]
+"$and": [{}, {}]
+
+$and: [{precio: {$gte: 800}}, {precio: {$lte: 1000}}]  //FILTRO
+
+db.producto.find({},{})
+db.producto.find({$and: [{precio: {$gte: 800}}, {precio: {$lte: 1000}}] },{nombre: 1, precio:1});
+
+- MOSTRAR LOS PRODUCTOS QUE ESTEN EN EL RANGO DE PRECIO [500,1000] 
+  Y SEAN DE LA MARCA DELL
+
+precio: {$gte: 500}                                   //precio >= 500 Y precio <= 1000
+precio: {$lte: 1000}
+
+$and: [{}, {}]
+$and: [{precio: {$gte: 500}}, {precio: {$lte: 1000}}] 
+Y 
+caracteristicas.marca: 'Dell'
+
+$and: [{}, {}]
+FILTRO
+$and: [{$and: [{precio: {$gte: 500}}, {precio: {$lte: 1000}}]}, {caracteristicas.marca: 'Dell'}]
+
+OPCION
+nombre:1, caracteristicas.marca: 1
+db.producto.find({},{})
+db.producto.find({$and: [{$and: [{precio: {$gte: 500}}, {precio: {$lte: 1000}}]}, {"caracteristicas.marca": "Dell"}]}, {});
+
+(15) EXPRESION REGULAR
+
+SINTAXIS
+{$regex: "monitor", "$options": "i"}   //MONITOR monitor
+
+EJEMPLO
+- MOSTRAR TODOS LOS PRODUCTOS QUE SEAN MONITOR
+
+nombre: {$regex: "monitor", "$options": "i"}   //FILTRO
+
+db.producto.find({nombre: {$regex: "monitor", "$options": "i"}},{nombre: 1});
+
+- MOSTRAR TODOS LOS PRODUCTOS QUE SEAN MONITOR O TABLETA
+
+nombre: {$regex: "monitor", "$options": "i"}
+nombre: {$regex: "tableta", "$options": "i"}
+
+FILTRO
+$or: [{nombre: {$regex: "monitor", "$options": "i"}},{nombre: {$regex: "tableta", "$options": "i"}}]
+OPCION
+nombre: 1
+
+FUNCION
+db.producto.find({},{})
+db.producto.find({$or: [{nombre: {$regex: "monitor", $options: "i"}},{nombre: {$regex: "tableta", $options: "i"}}]},{nombre: 1});
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

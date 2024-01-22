@@ -1,0 +1,6 @@
+"Crear una clase llamada 'Vehiculo' que tenga atributos
+como 'marca', 'modelo' y 'color'. La clase debe tener un
+método llamado 'informacion' que imprima en pantalla todos
+los atributos del vehículo. Luego, crea dos instancias de
+la clase 'Vehiculo' y llama al método 'informacion' para
+mostrar los detalles de cada vehículo."

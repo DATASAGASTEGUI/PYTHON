@@ -1,0 +1,31 @@
+COMANDOS PUNTO
+--------------
+.database
+.open
+.exit
+.system cls
+.read
+.table
+.schema consulta
+
+.mode table
+select * from consulta;
+
+.mode box
+select * from consulta;
+
+DELETE FROM consulta WHERE numeroConsulta = 1;
+--------------------------------------------------------------------------------
+sqlite3 salud ".mode csv" "SELECT * FROM consulta;" > salida.csv
+sqlite3 salud ".mode json" "SELECT * FROM consulta;" > salida.json
+pause
+--------------------------------------------------------------------------------
+.mode json
+select * from consulta;
+--------------------------------------------------------------------------------
+.mode csv
+select * from consulta;
+--------------------------------------------------------------------------------
+.output nombre_del_archivo.txt
+select * from consulta;
+--------------------------------------------------------------------------------

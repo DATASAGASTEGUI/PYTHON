@@ -1,0 +1,170 @@
+*****************
+***   INDEX   ***
+*****************
+
+***   0001   ***   OPERADOR $TYPE
+***   0002   ***   OPERADOR $EXISTS
+***   0003   ***   OPERADORES DE EVALUACION: $REGEX, $EXPR, $MOD
+
+
+
+
+
+
+
+
+
+
+
+****************
+***   0001   ***   OPERADOR $TYPE
+****************
+
+https://www.mongodb.com/docs/manual/reference/operator/query/type/#std-label-query-type-examples
+
+- MOSTRAR LOS EMPLEADOS DONDE EL TIPO DE DATO DEL CAMPO HOMEPHONE
+  ESTA COMO NUMERO ENTERO.
+  
+db.employee.find({homePhone: {$type: "number"}},{employeeID: 1, homePhone: 1, _id: 0});
+homePhone: {$type: "number"} 
+employeeID: 1, homePhone: 1, _id: 0
+
+- MOSTRAR LOS EMPLEADOS DONDE EL TIPO DE DATOS DEL CAMPO HOMEPHONE ESTA COMO CADENA
+
+db.employee.find({homePhone: {$type: "string"}},{employeeID: 1, homePhone: 1, _id: 0});
+db.employee.find({homePhone: {$type: 2}},{employeeID: 1, homePhone: 1, _id: 0});
+
+- MOSTRAR LOS EMPLEADOS DONDE EL TIPO DE DATO DEL CAMPO HOMEPHONE ESTA COMO NULL
+
+db.employee.find({homePhone: {$type: "null"}},{employeeID: 1, homePhone: 1, _id: 0});
+db.employee.find({homePhone: {$type: 10}},{employeeID: 1, homePhone: 1, _id: 0});
+
+- MOSTRAR LOS EMPLEADOS DONDE EL TIPO DE DATO DEL CAMPO HOMEPHONE SEA 
+  ENTERO(INT) O CADENA(STRING)
+ 
+db.employee.find({homePhone: {$type: ["int","string"]}},{employeeID: 1, homePhone: 1, _id: 0}); 
+
+db.employee.find({homePhone: {$type: [16,2]}},{employeeID: 1, homePhone: 1, _id: 0}); 
+
+****************
+***   0002   ***   OPERADOR $EXISTS
+****************
+
+- MOSTRAR TODOS LOS PRODUCTOS QUE TENGAN EL CAMPO PANTALLA
+
+db.producto.find({'caracteristicas.pantalla': {$exists: true}},{nombre: 1, 'caracteristicas.pantalla': 1, _id: 0});
+'caracteristicas.pantalla': {$exists: true} 
+nombre: 1, 'caracteristicas.pantalla': 1, _id: 0
+
+- MOSTRAR TODOS LOS PRODUCTOS QUE NO TENGAN EL CAMPO PANTALLA
+
+db.producto.find({'caracteristicas.pantalla': {$exists: false}},{nombre: 1, 'caracteristicas.pantalla': 1, _id: 0});
+
+****************
+***   0003   ***   OPERADORES DE EVALUACION: $REGEX, $EXPR, $MOD
+****************
+
+$regex
+
+- MOSTRAR LOS EMPLEADOS QUE LES GUSTA VIAJAR(TRAVEL)
+
+db.employee.find({description: {$regex: "travel"}},{employeeID: 1, description: 1, _id: 0});
+description: {$regex: "travel"}
+employeeID: 1, description: 1, _id: 0
+
+- MOSTRAR TODOS LOS EMPLEADOS QUE SE DEDIQUEN A "ATENCION AL CLIENTE"
+
+db.employee.find({title: {$regex: "support", $options: "i"}},{employeeID: 1, title: 1, _id: 0});
+ 
+- MOSTRAR TODOS LOS EMPLEADOS CUYO NOMBRE INICIEN CON LA LETRA "A"
+
+db.employee.find({firstName: {$regex: "^A", $options: "i"}},{employeeID: 1, firstName: 1, _id: 0});
+
+- MOSTRAR TODOS LOS EMPLEADOS CUYO NOMBRE FINALICE CON LA LETRA "Y"
+
+db.employee.find({firstName: {$regex: "Y$", $options: "i"}},{employeeID: 1, firstName: 1, _id: 0});
+
+- MOSTRAR TODOS LOS EMPLEADOS QUE TENGAN COMO PARTE DEL NOMBRE LA CADENA "AN"
+
+db.employee.find({firstName: {$regex: ".*AN.*", $options: "i"}},{employeeID: 1, firstName: 1, _id: 0});
+  
+$expr
+
+- MOSTRAR TODOS LOS EMPLEADOS CUYA TARDANZA(DELAY) NO ALCANZAN AUN LIMITE(TOLERANCE)
+
+db.employee.find({$expr: {$lt: ["$delay","$tolerance"]}},{employeeID: 1, delay: 1, tolerance: 1, _id: 0}); 
+$expr: {$lt: ["$delay","$tolerance"]}
+employeeID: 1, delay: 1, tolerance: 1, _id: 0
+
+- MOSTRAR TODOS LOS EMPLEADOS CUYA TARDANZA HAN SUPERADO AL LIMITE PERMITIDO(TOLERANCE)
+
+db.employee.find({$expr: {$gt: ["$delay","$tolerance"]}},{employeeID: 1, delay: 1, tolerance: 1, _id: 0});
+
+- MOSTRAR TODOS LOS EMPLEADOS CUYA TARDANZA LLEGADO AL LIMITE PERMITIDO(TOLERANCE) 
+
+db.employee.find({$expr: {$eq: ["$delay","$tolerance"]}},{employeeID: 1, delay: 1, tolerance: 1, _id: 0});
+
+$mod
+
+- MOSTRAR LOS EMPLEADOS QUE TIENEN LA EDAD PARTE
+
+db.employee.find({age: {$mod: [2, 0]}},{employeeID: 1, age: 1, _id: 0});
+age: {$mod: [2, 0]}
+employeeID: 1, age: 1, _id: 0
+
+- MOSTRAR LOS EMPLEADOS QUE TIENEN LA EDAD IMPAR
+ 
+db.employee.find({age: {$mod: [2, 1]}},{employeeID: 1, age: 1, _id: 0});
+
+****************
+***   0004   ***   OPERADORES ARRAY
+****************
+
+- MOSTRAR LOS EMPLEADOS QUE TIENEN COMO PASATIEMPO(HOBBIES) BAILE(DANCE)
+
+db.employee.find({},{})
+Condición     : hobbies: {title: "Dance", frequency: 3}
+Campos a traer: employeeID: 1, hobbies: 1, _id: 0 
+
+NO ES LA FORMA CORRECTA DE BUSCAR DENTRO DE UNA LISTA
+db.employee.find({hobbies: {title: "Dance", frequency: 3}},{employeeID: 1, hobbies: 1, _id: 0});
+
+OPERADOR $elemMatch
+-------------------
+
+Condición     : hobbies: {$elemMatch: {title: "Dance"}}
+Campos a traer: employeeID: 1, hobbies: 1, _id: 0 
+db.employee.find({hobbies: {$elemMatch: {title: "Dance"}}},{employeeID: 1, hobbies: 1, _id: 0});
+
+-- MOSTRAR LOS EMPLEADOS QUE TENGAN UNA CALIFICACION(SCORE) MAYOR O IGUAL A 90
+
+db.employee.find({},{});
+Condición     : score: {$elemMatch: {$gte: 90}}
+Campos a traer: score: 1, employeeID: 1, _id: 0
+db.employee.find({score: {$elemMatch: {$gte: 90}}},{score: 1, employeeID: 1, _id: 0});
+
+
+OPERADOR $all
+-------------
+
+MOSTRAR LOS EMPLEADOS QUE TRABAJAN EN EL ESTADO(STATE) EN FLORIDA Y OHIO
+
+
+db.employee.find({},{});
+Condición:  state: {$all: ["Florida", "Ohio"]}
+Campos a traer: state: 1, employeeID: 1, _id: 0
+db.employee.find({state: {$all: ["Florida", "Ohio"]}},{state: 1, employeeID: 1, _id: 0});
+
+OPERADOR $size
+--------------
+
+- MOSTRAR LOS EMPLEADOS QUE TIENEN 2 PASATIEMPOS(HOBBIES)
+
+db.employee.find({},{});
+Condición     : hobbies: {$size: 2} 
+Campos a traer: hobbies: 1, employeeID: 1, _id: 0
+
+db.employee.find({hobbies: {$size: 2}},{hobbies: 1, employeeID: 1, _id: 0});
+
+
+

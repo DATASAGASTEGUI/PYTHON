@@ -1,0 +1,9 @@
+"Crear una clase llamada 'CuentaBancaria' 
+que tenga atributos como 'titular', 'saldo' y 'tipo'. 
+
+La clase debe tener métodos para depositar y retirar 
+dinero de la cuenta, así como un método para imprimir 
+el saldo actual. Además, debe haber un método llamado 'transferencia'
+que permita transferir dinero de una cuenta a otra. Luego, crea dos
+ instancias de la clase 'CuentaBancaria' y realiza algunas
+ operaciones como depósitos, retiros y transferencias entre ellas."

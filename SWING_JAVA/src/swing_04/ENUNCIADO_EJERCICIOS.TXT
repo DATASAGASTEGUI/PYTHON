@@ -1,0 +1,65 @@
+--------------------------------------------------------------------------------
+(1)
+HACER UN PROGRAMA QUE PIDA AL USUARIO UN NUMERO ENTERO
+Y CONTINUACIÓN MOSTRAR LA SERIE DESDE 1...NUMERO_INGRESADO
+
+JTextField (ENTRADA)
+
+JLIST-JTEXTAREA-JCOMBOBOX(SALIDA)
+--------------------------------------------------------------------------------
+(2)
+HACER UN PROGRAMA QUE PIDA AL USUARIO N NUMERO ENTEROS HASTA QUE INGRESE
+CERO DONDE FINALIZA Y NOS DA COMO RESULTADO EL MAYOR DE DICHOS NUMEROS
+INGRESADOS.
+
+4 2 10 9 9 0
+
+9
+--------------------------------------------------------------------------------
+(3)
+HACER UN PROGRAMA QUE PIDA AL USUARIO NUMERO ENTERO Y EL PROGRAMA TIENE
+QUE MOSTRAR TODOS LOS DIGITOS DE DICHO NUMERO Y LA SUMA DE DICHOS DIGITOS.
+--------------------------------------------------------------------------------
+(4)
+USAR UN ARRAY PARA GUARDAR INFORMACION SOBRE LOS DATOS DE UN ALUMNO.
+
+int idAlumno = 1;
+
+String[] idAlumno = {"A1","A2","A3","A4","A5"};
+String[] nombre = {"Arturo","Ismael","Ramon","María","Carmen"};
+char[] sexo = {'H','H','H','M','M'};
+estatura[] estatura = {1.72,1.73,1.74,1.75,1.67};
+
+--------------------------------------------------------------------------------
+(5)
+LEER UN ARCHIVO CSV Y MOSTRARLO EN UN JTABLE
+--------------------------------------------------------------------------------
+(6)
+BASADO EN EL EJERCICIO 5
+HACER UN PROGRAMA QUE BUSQUE UN NOMBRE DE TRABAJADOR Y SE MUESTRE EN EL JTABLE
+--------------------------------------------------------------------------------
+(7)
+
+JUNTAR DOS COLUMNAS EN UNA NOMBRE Y APELLIDO Y OTRA COLUMNA DONDE
+SE MUESTRE LA LONGITUD DEL NOMBRE Y EL APELLIDO
+--------------------------------------------------------------------------------
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

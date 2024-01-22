@@ -1,0 +1,393 @@
+EJERCICIO 01: VENTA DE PRODUCTOS
+--------------------------------
+
+A partir del siguiente enunciado se desea realiza el modelo entidad-relación.
+
+Una empresa vende productos a varios clientes. Se necesita conocer los datos
+personales  de  los  clientes  nombre,  apellidos,  dni,  dirección  y  fecha  de nacimiento).  
+ 
+Cada  producto  tiene  un  nombre  y  un  código,  así  como  un  precio  unitario.
+Un cliente puede comprar varios productos a la empresa, y un mismo producto puede ser
+comprado por varios clientes. 
+ 
+Los  productos  son  suministrados  por  diferentes  proveedores.  Se  debe  tener
+en cuenta que un producto sólo puede ser suministrado por un proveedor, y que un
+proveedor  puede  suministrar  diferentes  productos.  De  cada  proveedor  se
+desea conocer el NIF, nombre y dirección.
+
+TIPOS DE RELACIONES
+-------------------
+ENTIDADES : SON AQUELOS QUE TIENE ATRIBUTOS QUE LO DEFINE
+
+RELACIONES: RELACION UNO A UNO        1:1
+            RELACION UNO A MUCHO      1:N
+            RELACION MUCHOS A MUCHOS  N:M
+
+TIPO DE DATO PARA CADENAS
+-------------------------
+CHAR(1)           VARCHAR(30)
+
+SEXO: 'M' O 'H'
+       1     1
+
+NOMBRE: 'MIGUEL', 'SEBASTIAN', 'JOSE'
+            6         11          4
+
+9 LETRA = 10   CHAR(10)
+
+RELACIONES ENTRE LAS ENTIDADES DEL ENUNCIADO
+--------------------------------------------
+CLIENTE       PRODUCTO    (MUCHOS A MUCHOS)
+1             +
++             1
+
+PRODUCTO      PROVEEDOR   (UNO A MUCHO)
++             1       
+1             1
+
+
+
+Llave naranja: Naranja significa clave foranea
+               Llave   significa clave primaria
+
+Rombo naranja: Naranja significa clave foranea
+               Rombo   significa atributo de la entienda
+
+DATOS MODELO
+------------
+INSERT INTO Proveedor(nombre,nif,direccion) VALUES('Luis','111111111A','Direccion 1');
+INSERT INTO Proveedor(nombre,nif,direccion) VALUES('Marcos','22222222A','Direccion 2'); 
+
+INSERT INTO Producto(nombre,precio_unitario, idProveedor) VALUES('Lapiz',1.5,1);
+INSERT INTO Producto(nombre,precio_unitario, idProveedor) VALUES('Tajador',1.1,1);
+INSERT INTO Producto(nombre,precio_unitario, idProveedor) VALUES('Cuaderno',1.4,2);
+INSERT INTO Producto(nombre,precio_unitario, idProveedor) VALUES('Borrador',1.2,2); 
+INSERT INTO Producto(nombre,precio_unitario, idProveedor) VALUES('Regla',1.0,2);  
+
+INSERT INTO Cliente(nombre,apellidos,dni,direccion,fecha_nacimiento) VALUES('Carlos','Roncal Nuñez','44444444C','Direccion 3','2000-01-10');
+INSERT INTO Cliente(nombre,apellidos,dni,direccion,fecha_nacimiento) VALUES('Sandra','Ledezma Ruiz','55555555D','Direccion 4','2001-08-13');
+INSERT INTO Cliente(nombre,apellidos,dni,direccion,fecha_nacimiento) VALUES('Miguel','Alva Jauregui','66666666E','Direccion 5','1999-02-21');
+ 
+INSERT INTO Clientes_x_Producto(codigo,idCliente) VALUES(1,1);
+INSERT INTO Clientes_x_Producto(codigo,idCliente) VALUES(2,1);
+INSERT INTO Clientes_x_Producto(codigo,idCliente) VALUES(3,1);
+
+INSERT INTO Clientes_x_Producto(codigo,idCliente) VALUES(3,2);
+INSERT INTO Clientes_x_Producto(codigo,idCliente) VALUES(4,2);
+
+INSERT INTO Clientes_x_Producto(codigo,idCliente) VALUES(1,3);
+INSERT INTO Clientes_x_Producto(codigo,idCliente) VALUES(4,3);
+
+CONSULTAS
+---------
+OBLIGATORISO
+   SELECT
+   FROM
+OPCIONALES
+   GROUP BY
+   HAVING
+   ORDER BY
+
+
+(1) MOSTRAR LOS CLIENTES ORDENADOS POR NOMBRE. SOLO MOSTRAR IDCLIENTE, NOMBRE, APELLIDOS,DNI
+
+SELECT IDCLIENTE, NOMBRE, APELLIDOS, DNI
+FROM CLIENTE
+ORDER BY NOMBRE;
+
++-----------+--------+---------------+-----------+
+| IDCLIENTE | NOMBRE | APELLIDOS     | DNI       |
++-----------+--------+---------------+-----------+
+|         1 | Carlos | Roncal Nuñez  | 44444444C |
+|         3 | Miguel | Alva Jauregui | 66666666E |
+|         2 | Sandra | Ledezma Ruiz  | 55555555D |
++-----------+--------+---------------+-----------+
+
+(2) SE NECESITA UN LISTAD DE LOS PRODUCTOS POR PROVEEDOR
+
+SELECT IDPROVEEDOR, NOMBRE
+FROM PRODUCTO;
+
++-------------+----------+
+| IDPROVEEDOR | NOMBRE   |
++-------------+----------+
+|           1 | Lapiz    |
+|           1 | Tajador  |
+|           2 | Cuaderno |
+|           2 | Borrador |
++-------------+----------+
+
+- FORMA IMPLICITA
+
+SELECT V.IDPROVEEDOR, V.NOMBRE, P.NOMBRE
+FROM PRODUCTO P, PROVEEDOR V
+WHERE P.IDPROVEEDOR = V.IDPROVEEDOR;
+
++-------------+--------+----------+
+| IDPROVEEDOR | NOMBRE | NOMBRE   |
++-------------+--------+----------+
+|           1 | Luis   | Lapiz    |
+|           1 | Luis   | Tajador  |
+|           2 | Marcos | Cuaderno |
+|           2 | Marcos | Borrador |
++-------------+--------+----------+
+
+- FORMA EXPLICITA
+
+SELECT V.IDPROVEEDOR, V.NOMBRE,  P.NOMBRE 
+FROM PRODUCTO P
+JOIN PROVEEDOR V ON P.IDPROVEEDOR = V.IDPROVEEDOR;
+
++-------------+--------+----------+
+| IDPROVEEDOR | NOMBRE | NOMBRE   |
++-------------+--------+----------+
+|           1 | Luis   | Lapiz    |
+|           1 | Luis   | Tajador  |
+|           2 | Marcos | Cuaderno |
+|           2 | Marcos | Borrador |
++-------------+--------+----------+
+
+(3) OBTENER EL PRECIO MEDIO ENTRE TODOS LOS PRODUCTOS
+
+SELECT AVG(PRECIO_UNITARIO) AS PRECIO_MEDIO
+FROM PRODUCTO;
+
+FUNCIONES: MAX, MIN, AVG, SUM
+
++--------------+
+| PRECIO_MEDIO |
++--------------+
+|          1.3 |
++--------------+
+
+(4) MOSTRAR LOS PRODUCTOS COMPRADOS POR CADA CLIENTE
+
+SELECT IDCLIENTE, CODIGO
+FROM CLIENTES_X_PRODUCTO
+ORDER BY IDCLIENTE;
+
++-----------+--------+
+| IDCLIENTE | CODIGO |
++-----------+--------+
+|         1 |      1 |
+|         1 |      2 |
+|         1 |      3 |
+|         2 |      3 |
+|         2 |      4 |
+|         3 |      1 |
+|         3 |      4 |
++-----------+--------+
+
+- JOIN IMPLICITO
+
+SELECT C.NOMBRE AS CLIENTE, P.NOMBRE AS PRODUCTO
+FROM CLIENTES_X_PRODUCTO CP, PRODUCTO P, CLIENTE C 
+WHERE P.CODIGO=CP.CODIGO AND C.IDCLIENTE=CP.IDCLIENTE
+ORDER BY C.NOMBRE;
+
++---------+----------+
+| CLIENTE | PRODUCTO |
++---------+----------+
+| Carlos  | Lapiz    |
+| Carlos  | Tajador  |
+| Carlos  | Cuaderno |
+| Miguel  | Lapiz    |
+| Miguel  | Borrador |
+| Sandra  | Cuaderno |
+| Sandra  | Borrador |
++---------+----------+
+
+- JOIN EXPLICITO
+
+SELECT C.NOMBRE AS CLIENTE, P.NOMBRE AS PRODUCTO
+FROM CLIENTES_X_PRODUCTO CP
+JOIN PRODUCTO P ON P.CODIGO = CP.CODIGO
+JOIN CLIENTE C ON C.IDCLIENTE = CP.IDCLIENTE
+ORDER BY C.NOMBRE;
+
++---------+----------+
+| CLIENTE | PRODUCTO |
++---------+----------+
+| Carlos  | Lapiz    |
+| Carlos  | Tajador  |
+| Carlos  | Cuaderno |
+| Miguel  | Lapiz    |
+| Miguel  | Borrador |
+| Sandra  | Cuaderno |
+| Sandra  | Borrador |
++---------+----------+
+
+(4) EN BASE A LA PREGUNTA ANTERIOR MOSTRAR EL NUMERO DE PRODUCTOS DISTINTOS COMPRADOS POR CADA CLIENTE
+
+SELECT C.NOMBRE, COUNT(P.NOMBRE) AS CANTIDAD
+FROM CLIENTES_X_PRODUCTO CP, PRODUCTO P, CLIENTE C 
+WHERE P.CODIGO=CP.CODIGO AND C.IDCLIENTE=CP.IDCLIENTE
+GROUP BY C.NOMBRE
+ORDER BY C.NOMBRE;
+
++--------+----------+
+| NOMBRE | CANTIDAD |
++--------+----------+
+| Carlos |        3 |
+| Miguel |        2 |
+| Sandra |        2 |
++--------+----------+
+
+(5) SACAR EL NOMBRE DEL PROVEEDOR QUE HA VENDIDO EL PRODUCTO LAPIZ
+
+SELECT V.NOMBRE
+FROM PROVEEDOR V, PRODUCTO P
+WHERE V.IDPROVEEDOR = P.IDPROVEEDOR AND P.NOMBRE = 'LAPIZ';
+
++--------+
+| NOMBRE |
++--------+
+| Luis   |
++--------+
+
+(6) MOSTRAR LOS PRODUCTOS DE CADA PROVEEDOR
+
+SELECT P.IDPROVEEDOR,V.NOMBRE, P.NOMBRE
+FROM PROVEEDOR V, PRODUCTO P
+WHERE V.IDPROVEEDOR = P.IDPROVEEDOR
+ORDER BY P.IDPROVEEDOR;
+
++-------------+--------+----------+
+| IDPROVEEDOR | NOMBRE | NOMBRE   |
++-------------+--------+----------+
+|           1 | Luis   | Lapiz    |
+|           1 | Luis   | Tajador  |
+|           2 | Marcos | Cuaderno |
+|           2 | Marcos | Borrador |
++-------------+--------+----------+
+
+(7) EN BASE A LA PREGUNTA 6 CONTAR CUANTOS PRODUCTOS CORRESPONDEN A CADA PROVEEDOR
+
+SELECT V.NOMBRE, COUNT(P.NOMBRE) AS CANTIDAD
+FROM PROVEEDOR V, PRODUCTO P
+WHERE V.IDPROVEEDOR = P.IDPROVEEDOR
+GROUP BY V.NOMBRE;
+
++--------+----------+
+| NOMBRE | CANTIDAD |
++--------+----------+
+| Luis   |        2 |
+| Marcos |        3 |
++--------+----------+
+
+(8) MOSTRAR LOS PRODUCTOS QUE AUN NO HAN TENIDO NINGUNA SALIDA(COMPRA)
+
+SELECT P.codigo, P.nombre AS producto
+FROM Producto P
+LEFT JOIN Clientes_x_Producto CP ON P.codigo = CP.codigo
+WHERE CP.codigo IS NULL;
+
+Ó
+
+SELECT P.codigo, P.nombre AS producto
+FROM Producto P
+WHERE NOT EXISTS (
+    SELECT 1
+    FROM Clientes_x_Producto CP
+    WHERE P.codigo = CP.codigo
+);
+
++--------+----------+
+| codigo | producto |
++--------+----------+
+|      5 | Regla    |
++--------+----------+
+
+EJERCICIO 02: TRANSPORTE QUE REPARTE PAQUETES
+---------------------------------------------
+
+A partir del siguiente enunciado se desea realizar el modelo entidad-relación.
+
+Se  desea  informatizar  la  gestión  de  una  empresa  de  transportes  que
+reparte paquetes  por  toda  España.  Los  encargados  de  llevar  los  paquetes  son
+los camioneros,  de  los  que  se  quiere  guardar  el  dni,  nombre,  teléfono,
+dirección, salario y población en la que vive.
+De los paquetes transportados interesa conocer el código de paquete, descripción,
+destinatario  y  dirección  del  destinatario.  Un  camionero  distribuye  muchos paquetes,
+ y  un  paquete  sólo  puede  ser  distribuido  por  un  camionero.  De  las provincias
+a las que llegan los paquetes interesa guardar el código de provincia y el  nombre. 
+Un  paquete  sólo  puede  llegar  a  una  provincia.  Sin  embargo,  a  una provincia 
+pueden llegar varios paquetes.
+
+De los camiones que llevan los camioneros, interesa conocer la matrícula, modelo, tipo
+y  potencia.  Un  camionero  puede  conducir  diferentes  camiones  en  fechas diferentes,
+y un camión puede ser conducido por varios camioneros.
+
+SOLUCION
+--------
+Paquete (idPaquete, descripción, destinatario, dirección_destinatario)
+Camionero (idCamionero,dni,nombre,teléfono,dirección,salario,población)
+
+CAMIONERO           PAQUETE (UNO A MUCHOS)
+1                   +
+1                   1
+
+Provincia (idProvincia, nombre)
+
+PAQUETE             PROVINCIA (UNO A MUCHOS)
+1                   1
++                   1
+
+Camion (idCamión, matrículoa, modelo, tipo, potencia)
+
+CAMION       CAMIONERO
++            1
+1            +
+
+======================================================================
+RELACION DE UNO A MUCHOS:  DEPARTAMENTOS
+                           EMPLEADOS
+			
+DEPARTEMENTOS             EMPLEADOS
+-----------------------------------
+Marketing                 Miguel
+                          Calos
+
+  
+Ventas                    Silvia
+                          Carla
+						  Arturo
+						  
+Facturación	              Ramon
+
+DEPARTAMENTO              EMPLEADO
+1                         + 
+1                         1                      
+		
+			
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

@@ -1,0 +1,80 @@
+(001) EVALUAR UNA CADENA SI ES PALIDROMO
+(002) DADA LA SIGUIENTE LISTA DE PALABRAS
+      ['HOLA','OSO','MOUSE','RECONOCER']
+      EL PROGRAMA DEBE MOSTRAR LA LISTA EN PANTALLA CON UN MENSAJE
+      A LA DERECHA DE CADA PALABRA INDICANDO SI PALIDROMO O NO
+(003) DETERMINAR SI UN NUMERO INGRESADO ES PRIMO
+(004) MOSTRAR LOS NUMEROS PRIMOS ENTRE 1 Y 100
+(005) DADA LA SIGUIENTE LISTA DE NUMEROS ENTEROS CON DUPLICADOS
+      [4, 5, 2, 1, 0, 8, 9, 2, 1]
+      SE PIDE OBTENER UNA LISTA SIN DUPLICADOS
+(006) DADA LA SIGUIENTE LISTA CON NUMEROS ENTEROS
+      [1, 3, 7, 2, 7, 8, 9, 4, 6, 3]
+      DIVIDIRLA EN DOS LISTAS UNA DE PARES Y OTRA DE IMPARES
+(007) DADA DOS LISTAS:
+      a = [1, 2, 3, 4]
+      b = [1, 2, 5, 6]
+      SE PIDE MOSTRAR LOS NUMEROS EN COMUN DE LAS DOS LISTAS
+      (INTERSECCION DE CONJUNTOS)
+
+DICCIONARIO
+-----------
+
+(008) IMPLEMENTAR 2 DICCIONARIOS PARA TRADUCIR UN MENU
+      SEGUN LA ELECCION DEL USUARIO EN QUE IDIOMA QUIERE
+      EL MENU(ESPAÑOL INGLES)
+
+(009) SIMULAR CON UN DICCIONARIO UN SWITCH DE JAVA PARA 
+      OBTENER UNA SENTENCIA CONDICIONAL MULTIPLE
+
+(010) DADO LOS SIGUIENTES DATOS DE EMPLEADOS TABULAR
+      UNA TABLA PARA MOSTRARLO EN PANTALLA:
+      empleado_dic = {
+           'E01': {'nombre': 'Miguel', 'apaterno': 'Ruiz', 'estatura': 1.61},
+           'E02': {'nombre': 'Carlos', 'apaterno': 'Alva', 'estatura': 1.76},
+           'E03': {'nombre': 'María', 'apaterno': 'Roncal', 'estatura': 1.56},
+           'E04': {'nombre': 'Carmen', 'apaterno': 'Lescano', 'estatura': 1.66},
+           'E05': {'nombre': 'José', 'apaterno': 'Jauregui', 'estatura': 1.46},
+           'E06': {'nombre': 'Arturo', 'apaterno': 'Parraga', 'estatura': 1.72}
+      }
+
+      IDEMPLEADO    NOMBRE    PATERNO    ESTATURA
+      ----------    ------    -------    --------
+      E01           Miguel    Ruiz           1.61
+      E02           Carlos    Alva           1.76
+      ...
+
+TUPLAS
+
+(011) DADO LA SIGUIENTE MATRIZ:
+          matriz = [
+              [3, 4, 5],
+              [7, 8, 9]
+             ]
+      MOSTRAR EN PANTALLA POSICIONES EN FORMA DE TUPLA DE
+      CADA ELEMENTO DE LA MATRIZ
+
+      (0,0)=3   (0,1)=4   (0,2)=5
+      (1,0)=7   (1,1)=8   (1,2)=9
+
+(012) DEL EJERCICIO 11 SE PIDE GUARDAR TODAS LAS TUPLAS
+      EN UNA LISTA. LUEGO MOSTRAR LA LISTA CON DICHAS TUPLAS
+
+(013) HACER UNA FUNCION QUE RECIBA LA MATRIZ DEL EJEMPLO 11
+      Y LA FUNCION RETORNA EN FORMA DE TUPLA LA CANTIDAD
+      DE NUMEROS DE LA MATRIZ Y LA SUMA DE TODOS SUS NUMEROS
+      (6, 33)
+
+(014) TOMANDO COMO BASE EL EJERCICIO 12 SE PIDE CREAR UN DICCIONARIO
+      PARA GUARDAR LAS TUPLAS DE LA SIGUIENTE FORMA:
+
+      {'1':(0, 0), '2':(0, 1), '3':(0, 2), '4':(1, 0), 
+       '5':(1, 1), '6':(1, 2)}
+
+(015) DETERMINAR SI DOS PALABRAS SON ANAGRAMAS
+
+(016) DETERMINAR SI DADO DOS CONJUNTOS SON DISJUNTOS(SI NO TIENEN NINGUN ELEMENTO EN COMUN)
+      c1 = {1, 2, 3}
+      c2 = {4, 5, 6}
+
+

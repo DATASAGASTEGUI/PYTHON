@@ -1,0 +1,43 @@
+*****************
+***   INDEX   ***
+*****************
+
+ventana1:
+ventana2:
+ventana3:
+ventana4: Calcular Area y Perimetro de un circulo. Acciones se seleccionar de Button: Calcular, Reiniciar, Salir
+ventana5: Calcular Area y Perimetro de un circulo. Acciones se seleccionar de un ComboBox(Selección Simple)
+ventana6: Calcular Area y Perimetro de un circulo. Acciones se seleccionar de un RadioButton(Selección Simple)
+ventana7: CheckBox Selección múltiple. Seleccionar varias ciudades desde checkbox, luego con un botón mostrar lo que hemos seleccionado
+ventana8: Ingresar en una cajita de texto un número, y luego se presiona un boton y se muestra la serie en un list.
+
+**********************
+***   ENUNCIADOS   ***
+**********************
+
+(1) PEDIR AL USUARIO UNA CADENA(ORACION) Y EL PROGRAMA MOSTRARA
+    LA CANTIDAD DE VOCALES PRESENTES EN LA CADENA(ORACION)
+
+(2) 1.60   --> 1.6
+    "1.60" --> 1.60   Lograr que imprima 1.60
+    1.73   --> 1.73   Acá no hay problema
+
+(3) DADA LA SIGUIENTE FECHA  1/1/2024 COMO EJEMPLO PERO DEBE
+    EL PROGRAMA SER GENERICO.
+    DEBE MOSTRAR LA FECHA DE LA SIGUIENTE FORMA 01/01/2024
+    
+    FECHA VALIDA:
+
+    10/15/2024  ---> DIA: DOS DIGITOS
+                     MES: DOS DIGITOS
+                     AÑO: 4 DIGITOS
+    9/3/24      ---> 09/03/2024
+
+
+
+    
+
+
+
+
+

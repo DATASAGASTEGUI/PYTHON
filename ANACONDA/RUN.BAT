@@ -1,0 +1,2 @@
+C:\Users\RYZEN\anaconda3\python.exe C:\Users\RYZEN\anaconda3\cwp.py C:\Users\RYZEN\anaconda3 C:\Users\RYZEN\anaconda3\python.exe C:\Users\RYZEN\anaconda3\Scripts\jupyter-notebook-script.py "%USERPROFILE%/"
+PAUSE
